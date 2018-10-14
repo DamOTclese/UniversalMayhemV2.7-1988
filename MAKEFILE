@@ -1,0 +1,231 @@
+# This file creates Universal Mayhem.
+# Copyright (c) 1988/1989 Fredric L. Rice
+#
+# The MODEL variable is used to describe
+# the memory model to use.
+#
+# Compiler SWITCHES:
+#    -G 	Generate for speed rather than size
+#    -O 	Optimizes jumps
+#    -d 	Merge duplicate strings
+#    -Z 	This would optimize registers
+#    -K		Default char is considered unsigned
+#    -g1        Stop after first warning
+#    -j1	Stop after first error
+#    -v         Symbol table
+#    -y         Line number
+#    -w         Enable all warnings
+
+MODEL = l
+
+# Normal module compile is based on what executes fast. For normal
+# modules, we want the -G option on.
+
+SWITCHES1 = -Ic:\tcpp\include -G -O -d -Z -K -g1 -j1
+
+# On some modules where speed of execution are not important but the
+# size of the file is, we want to have the -G not selected.
+
+SWITCHES2 = -Ic:\tcpp\include -O -d -Z -K -g1 -j1
+
+# On a few modules that are dynamically optimized, we use this switch.
+
+SWITCHES3 = -Ic:\tcpp\include -G -O -d -Z -K -g1 -j1 -v -y
+
+# Describe the files that are used to
+# create the executable module.
+
+ship.exe : ship.obj base.obj board.obj comets.obj command.obj buysell.obj \
+           destruct.obj distrib.obj extend.obj findgo.obj help.obj \
+	   info.obj input.obj leave.obj long.obj mail.obj name.obj \
+           names.obj peace.obj phaser.obj plague.obj power.obj protect.obj \
+           remote.obj rpt.obj scan.obj spy.obj stand.obj stat.obj \
+           sysop.obj taxes.obj time.obj torp.obj warp.obj close.obj free.obj \
+           random.obj fileio.obj ping.obj quit.obj sled.obj auction.obj \
+           nav.obj color.obj cops.obj goals.obj leash.obj scout.obj async.obj \
+           maydrop.obj support1.obj landing.obj boarding.obj
+
+# Here is the command to execute if
+# ship.exe needs to be linked.
+#       c - lower case significant
+#       m - map file with publics
+#       l - include source line numbers
+#       s - detailed map of segments
+#       v - include full debugging information
+
+     c:\tcpp\tlink /c /m /l /s /v @ship.res
+     type ship.scr
+
+#
+# The following are the command that are executed if various object
+# modules need to be compiled. The header file changes will also
+# invoke recompile.
+#
+
+ship.obj : ship.c defines.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Y -m$(MODEL) ship.c
+
+warp.obj : warp.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Y -m$(MODEL) warp.c
+
+close.obj : close.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES2) -Y -m$(MODEL) close.c
+
+random.obj : random.c defines.h ship.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Y -m$(MODEL) random.c
+
+command.obj : command.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Y -m$(MODEL) command.c
+
+distrib.obj : distrib.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES2) -Y -m$(MODEL) distrib.c
+
+sled.obj : sled.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Y -m$(MODEL) sled.c
+
+rpt.obj : rpt.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Y -m$(MODEL) rpt.c
+
+scout.obj : scout.c defines.h ship.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Y -m$(MODEL) scout.c
+
+#
+# Serial/Video/Disk I/O Routines. These should NOT be made into overlays.
+#
+
+fileio.obj : fileio.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Y -m$(MODEL) fileio.c
+
+color.obj : color.c defines.h ship.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Y -m$(MODEL) color.c
+
+input.obj : input.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Y -m$(MODEL) input.c
+
+async.obj : async.c async.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Y -m$(MODEL) async.c
+
+#
+# Overlay modules
+#
+
+base.obj : base.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES2) -Yo -m$(MODEL) base.c
+
+board.obj : board.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES2) -Yo -m$(MODEL) board.c
+
+comets.obj : comets.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES2) -Yo -m$(MODEL) comets.c
+
+buysell.obj : buysell.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) buysell.c
+
+destruct.obj : destruct.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES2) -Yo -m$(MODEL) destruct.c
+
+extend.obj : extend.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES2) -Yo -m$(MODEL) extend.c
+
+findgo.obj : findgo.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) findgo.c
+
+help.obj : help.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES2) -Yo -m$(MODEL) help.c
+
+info.obj : info.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES2) -Yo -m$(MODEL) info.c
+
+leave.obj : leave.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES2) -Yo -m$(MODEL) leave.c
+
+long.obj : long.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) long.c
+
+mail.obj : mail.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES2) -Yo -m$(MODEL) mail.c
+
+name.obj : name.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES2) -Yo -m$(MODEL) name.c
+
+names.obj : names.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) names.c
+
+peace.obj : peace.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES2) -Yo -m$(MODEL) peace.c
+
+plague.obj : plague.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES2) -Yo -m$(MODEL) plague.c
+
+power.obj : power.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES2) -Yo -m$(MODEL) power.c
+
+protect.obj : protect.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES2) -Yo -m$(MODEL) protect.c
+
+stand.obj : stand.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) stand.c
+
+stat.obj : stat.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) stat.c
+
+sysop.obj : sysop.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) sysop.c
+
+taxes.obj : taxes.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) taxes.c
+
+time.obj : time.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) time.c
+
+free.obj : free.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES2) -Yo -m$(MODEL) free.c
+
+ping.obj : ping.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES2) -Yo -m$(MODEL) ping.c
+
+quit.obj : quit.c defines.h ship.h function.h command.h
+     c:\tcpp\tcc -c $(SWITCHES2) -Yo -m$(MODEL) quit.c
+
+auction.obj : auction.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) auction.c
+
+leash.obj : leash.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES2) -Yo -m$(MODEL) leash.c
+
+maydrop.obj : maydrop.c defines.h ship.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) maydrop.c
+
+support1.obj : support1.c defines.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) support1.c
+
+remote.obj : remote.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) remote.c
+
+spy.obj : spy.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) spy.c
+
+torp.obj : torp.c defines.h ship.h function.h command.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) torp.c
+
+scan.obj : scan.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) scan.c
+
+nav.obj : nav.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) nav.c
+
+cops.obj : cops.c defines.h ship.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) cops.c
+
+goals.obj : goals.c defines.h ship.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) goals.c
+
+phaser.obj : phaser.c defines.h ship.h function.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) phaser.c
+
+landing.obj : landing.c defines.h ship.h function.h landing.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) landing.c
+
+boarding.obj : boarding.c defines.h ship.h function.h boarding.h
+     c:\tcpp\tcc -c $(SWITCHES1) -Yo -m$(MODEL) boarding.c
+

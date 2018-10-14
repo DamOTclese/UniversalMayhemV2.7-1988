@@ -1,0 +1,1036 @@
+
+This file contains the on-line documentation for Universal Mayhem version
+2.3. The file may be updated as the System Operator wishes however the
+SysOp must observe some rules:
+
+o The '*' in the first column of a line starts the beginning of
+  another on-line help item. There MUST be the correct number of such lines
+  or the whole thing falls apart.
+
+o Because of this, if you add or remove things from this file, you MUST
+  NOT change the number of these lines but the text between them.
+
+o You may place any comments at the top of this file if you wish, such as
+  an update history or whatever. All you must observe is to not place a line
+  in the opening comments that has an '*' as the first character.
+
+---------------------------------------------------------------------------
+
+* SCAN - Perform sensor scan of the surrounding area
+
+Syntax: SCAN [enter]
+
+The scan command will allow you to take a look at the surrounding area.
+The result of the scan is a half-screen of ascii-graphic type data. The
+various elements of the scan that you may see are:
+
+SHIP - Any upper case four-letter word is a ship. Yours is always center
+ship - Any lower case four-letter word is a base.
+<RR> - Remote robot sensor
+@@@@ - Ion field
+#### - Edge of the universe
+<00> - A planet
+<**> - A star
+<%%> - A triten mine
+<  > - A black hole. May have a white hole somewhere
+ .   - An attack swarm
+<GP> - The Galactic Police attack ship
+O--- - A comet in clockwise orbit about a star
+---O - A comet in counterclockwise orbit about a star
+<OX> - A pirate ship
+
+If you scan a comet and are the first to do so, you are allowed to name
+the comet anything you wish. The names of the comets are available, as
+well as a list of those that have been found, through the 'COMETS' command.
+
+Because enemy ships can become cloaked, your sensor array technology must
+be higher or equal to the cloaked ship before the cloaked ship will
+appear on the sensor scan. If the sensor scan can not see an enemy ship
+but one is in the area, "Sensors report an ion trail in this area..." is
+offered to let you know its around.
+
+The borders of the sensor scan show the positions of the various objects.
+Your ship is always center-screen unless you are pulling a scan from one
+of your remote robot sensors in which case <RR> will appear in the center
+of the sensor scan.
+
+* Wdv - Warm drive [d]irection [v]elocity
+
+Syntax: w45 [enter]
+
+The warp command is how you get around in the universe. It provides a
+method to move in any permissible direction in jumps that your warp drive
+class will allow. The directions are:
+
+
+                1   2   3
+                  \ | /
+              4 --  5  -- 6
+                  / | \
+                7   8   9
+
+
+For the sample warp in the syntax above, this would warp the ship
+towards direction 4, (left), five spaces.
+
+If you warp onto a star or a mine, you will receive some damage. The ship
+will then be blown off of the star or mine one sector.
+
+If you warp onto a black hole, you will enter it and come out at another
+point in the universe. Some black holes have linked white holes. This
+can bee seen when you enter a hole and come out of the hole sitting
+right next to another hole. Enter that hole and if you come out sitting
+next to the first black hole, they are linked.
+
+See command 'RPT' to see how warp commands are easily strung together.
+
+Gateways exist between the thirteen universes. The various universes are
+arranged in the macrouniverse in the following manor:
+
+
+                           ----
+                          | 12 |
+                      ---- ----
+                     | 10 |
+                 ---- ----
+                | 06 |
+            ---- ---- ----  
+           | 01 |    | 02 |
+       ---- ---- ---- ---- ----
+      | 05 |    | 00 |    | 07 |
+       ---- ---- ---- ---- ----
+           | 03 |    | 04 |
+            ---- ---- ----
+                | 08 |
+            ---- ----
+           | 09 |
+       ---- ----
+      | 11 |
+       ----    
+
+
+
+
+* RPTn - Repeat the command string [n]umber of iterations
+
+Syntax:
+
+w34;b110;w74;s110;rpt30 [enter]
+
+The RPT command allows you to create "Commerce loops". Take a look at the
+syntax example above. This command string shows a ship warping in direction
+three four spaces, buying 10 units of cargo, warping back the way it came
+for four spaces, selling the cargo it just bought, and then repeating the
+whole thing 30 times.
+
+The RPT command allows from 1 iteration to 30. You may not have commands
+after the RPT statement; indeed, they are ignored. You may not nest the
+RPT commands either as that would involve complex stack operations that
+are not acceptable to code size and execution times.
+
+* QUIT / EXIT - Quit Universal Mayhem the C version.
+
+Syntax:
+
+quit [enter] Or
+exit [enter]
+
+The quit command allows a structured exit from the game. It assures that
+the files are updated such that any movements or actions made while you
+are playing have been properly logged to disk.
+
+In addition, quit de-allocates the memory that was set aside by the game
+to contain the psudo-mulit-tasking operating system that Universal Mayhem
+maintains to automate enemy ships.
+
+It's not vital that the structured bail-out of the game be performed. When
+an unforeseen accident occurs where carrier detect is dropped, Mayhem will
+simply exit back to DOS which will usually load the BBS software again. In
+any event, Universal Mayhem maintains two timers which watch for player
+activity. After one minute of inactivity, a warning is issued. After an
+additional two minutes, the system bounces the inactive player.
+
+This insures that if a player is somehow suspended with no possibility of
+bail-out, Universal Mayhem will take over with a maximum of three
+minutes of system inaccessibility before bouncing out back to the
+BBS software.
+
+* STAT - Perform a status report of ship, base, and other systems
+
+Syntax:
+
+stat [enter]
+
+The STAT command will tell you what supplies are aboard your ship and
+aboard your base if you have one. In addition, it will also report:
+
+o The amount of taxes you have due
+o Who you were last attacked by and what their weapon use was
+o Who you attacked and what condition you left them in
+o Whether your base has been damaged or not
+o The locations of up to four remote robot sensors
+o Who destroyed your remote robots if any were destroyed
+
+Another IMPORTANT aspect to STAT is the subspace mail monitor. When you
+perform a STAT command, if you have subspace mail waiting to be read, or
+mail that has been read marked for you, STAT will tell you how many
+messages you have.
+
+* INFO - Get commerce information on a planet
+
+Syntax:
+
+info [enter]
+
+The INFO command will tell you if the planet you are currently docked
+with, (you warp on top of it), has been named or visited. You are
+allowed to name planets by using the 'name' command.
+
+Most importantly, this command tells you the cost of the various items
+that the planet has to offer. In addition, the technology level of the
+planet is offered.
+
+This technology value determines the class warp drives and shuttles,
+among other things, that you may buy and sell at the planet.
+
+* Tdv - Torpedo [d]irection, [v]elocity
+
+Syntax:
+
+t49 [enter]
+
+The torp command is how you fire at objects in space. You offer the
+direction and the distance the torp is allowed to travel. The directions:
+
+                1   2   3
+              4     5     6
+                7   8   9
+
+You may fire at anything and anyone you wish but be sure you know that
+people may shoot back. If you hit a mine or a star, they will blow off
+a lot of high energy gamma radiation in your general direction and cause
+some damage.
+
+As the torpedo moves through space, its positional tracking radio sends
+back information on its position to your ship. It will continue to do
+so until the distance runs out or until it hits something.
+
+If you fire a torpedo into an attack swarm and cause some damage, you
+will get damage reports. The same goes for hitting unshielded bases.
+
+* BOARD - Board an enemy ship or base
+
+Syntax:
+
+board [enter]
+
+If you want to board a ship or a base, you must drop its shields. You
+may not ask nicely to do so as the enemy ship commander will probably not
+think its wise to do so.
+
+You'll have to use phasers and torpedoes to drop the ship or base shields.
+When you do so, its  very important to make sure that you don't damage
+the ship or base if you intend to board it.
+
+After the shields are down, warp onto the ship or base and type 'BOARD'.
+Everything aboard will be transferred to your ship. In the case of boarding
+a ship, the crew aboard the enemy ship will not be in any condition to
+put up much of a fight and you may have your way with them.
+
+The base personnel, however, are a different matter. They will fight to
+the last crew member so you must make sure that your ship contains more
+crew than the enemy base you intend to board. If you are defeated, a
+small assortment of damaged crew people will come staggering back and
+the base will be unboardable unless you can hire some new recruits.
+
+After boarding a ship, you have two choices. You may back off a space and
+send one last torpedo to finish it; accumulating your kill count, or you
+may elect to leave it adrift. In this case, the enemy ship commander will
+have a hard time surviving. The captain will probably need to send a
+general subspace message to all ships asking to be destroyed.
+
+* POWER - Redistribute power among shields and engines
+
+Syntax:
+
+power [enter]
+
+The power command will pull a systems check on available power and
+inform you of what energy is available. It will then ask you how much
+of it you wish to divert to shields.
+
+You need a certain amount of power in your engines to operate them at
+warp speed and you also need some in your shields. The higher the
+speed, the more needed in both engines and shields. Engines to attain
+the higher speeds and shields to ward off interstellar molecules.
+
+* Siv - Sell [i]tem for [v]alue units
+
+Syntax:
+
+s1100 [enter]    or
+s [enter]
+
+This command allows you to sell items at planets. For a list of what you
+may sell, hit "s" and you will get the list.
+
+The above command will sell 100 units of cargo. For a list of what your
+ship contains that is sellable, request 'STAT'. If you try to sell more
+than you have, you will get an error message.
+
+See 'RPT' for a sample commerce loop syntax that uses [S]ell.
+
+The money that you make selling something is taxed and when you have
+some 10,000 credits due in taxes, you really should pay them. If taxes
+are not paid after ten warnings or so, your ship will be impounded.
+
+* Biv Buy [i]tem for [v]alue units
+
+b1100 [enter]    or
+b [enter]
+
+This command allows you to sell items as planets. For a list of what you
+may buy, hit "b" and you will get the list.
+
+The above command will buy 100 units of cargo. You ship may not contain
+and infinite amount of articles so you will be told if you try to buy
+more than your ship can carry.
+
+Likewise, if you try to buy something that you can't pay for, you will
+be informed and you will not buy anything.
+
+* BASE - Build or disassemble a base; transfer items to and from base
+
+Syntax:
+
+base [enter]
+
+The base allows you to maintain a stock of supplies that are not kept in
+the ship. This allows you to hoard things that won't normally fit in your
+ship.
+
+To build a base, you simply warp to the spot you want the base and type
+"BASE". The base will be built and you are given the option of moving
+things to the base.
+
+If you are docked with your base, (simply warp on top of it), you may
+transfer items to and from it or disassemble it to build it somewhere else.
+
+It's always a good idea to place a large assortment of crew aboard to
+repel a ship-bound attack if someone tried to board your base.
+
+* A - Again command; Repeat last command or command string entered
+
+Syntax:
+
+a [enter]
+
+The "a"gain command allows you to cause the reexecution of the last command
+or string of commands. If you typed the following commerce loop and want
+to run it again, you would do something like this:
+
+b12000;w410;w63;s12000w43;w610;rpt30
+
+.
+. This will warp around buying and selling cargo 30 times
+.
+
+a
+
+You may hit "a" any number of times, causing the commerce loop to be run
+as many times as you wish. As always, in a rpt loop, if you hit [esc]ape,
+the commerce loop will bail-out and wait for another command.
+
+* MSG - Subspace messages transmitter
+
+Syntax:
+
+msg [enter]    or
+msg {ship name} [enter]
+
+You may send messages to the other ship captains. Usually, threats and
+counter threats are exchanged. A lot of times, however, intentions for
+making peaceful alliances between ships is discussed.
+
+It's important to note that the subspace messages that you enter to
+other ships captains are readable by all other captains; there are no
+private messages.
+
+This is because Universal Mayhems Subspace Mail is in fact FidoNet
+Echo Mail. AREA:MAYHEM. This means that those systems that are tied into
+the echo conference MAYHEM will ALL read your subspace messages, and
+you  can read those other systems Universal Mayhem subspace messages.
+
+To determine IF YOU HAVE MAIL WAITING, perform "STAT". Command STAT
+will tell you if you have mail waiting and how many messages if there
+are some.
+
+You would need to return to the BBS software to read your subspace mail.
+In the Beta test version, this is required. In the initial release, the
+subspace mail will be offered as soon as you sign in.
+
+- - - Technical aspect of subspace mail - - -
+
+The mail originating from the system you used to play Universal Mayhem
+has a Network Address for FidoNet. The system you use has configured
+Universal Mayhem to mark all subspace mail originating at this address. In
+addition, the system operator also offers the destination network
+address in the configuration file.
+
+All mail, then, has an origination and destination address. When the system
+processes those messages you enter, (usually at night), the messages are
+compressed and sent through the phone line to other systems that have
+Universal Mayhem on-line and wish to participate in the echo mail exchange.
+
+* Time - Tells you how much time you  have left to play
+
+Syntax:
+
+time [enter]
+
+The system operator determines how much time a player may spend on the
+game every day. There is no way a player may acquire additional playing
+time unless the system operator updates the configuration file.
+
+This command will tell you how much time remains to play.
+
+* STAND - Offers standings in the game
+
+Syntax:
+
+stand [enter]
+
+The top ten strongest ship names are offered. In addition, the highest
+ships location is given. In this way, every one with a gun will try to take
+this ship down. You must have at least one million units of power available
+to your use to show up on the list.
+
+The top ten killers is also given. You need only kill once to make the list.
+
+The Galactic Police always start out at the top of the list.
+
+* NAMES - Get a list of the other ships names, captains, and status
+
+Syntax:
+
+names [enter]
+
+If you want to know how else is out their, this command will offer that
+information. n addition to showing the ships names, it also shows the names
+of the captains and the general status of the ship.
+
+It's important to notice that if a ship is impounded, it is marked as
+such in this display. Those ships that have auctioned on impounded ships
+are also shown. In this way, if you see a ship is bidding on the same
+ship you are, you can simply try to destroy it so yours will be the
+highest!
+
+* NAME - Name a planet
+
+Syntax:
+
+name [enter]
+
+You may name a planet. Why not?
+
+Though naming a planet adds to the number of planets you have named in
+the "names" command, naming planets doesn't do anything else BUT name
+planets.
+
+                                    NOTE
+
+If the system operator did not have that much disk space left when Universal
+Mayhem was installed, you may or may not be allowed to name planets. This
+option was done to save a little under 1/2 of the file size for the planets
+file. If NAME is not supported, you will be told that the planetary
+government does not allow the naming of planets.
+
+* LONG - Long range scan for an enemy ship
+
+Syntax:
+
+long [enter]    or
+long {ship name} [enter]
+
+The long command will accept the name of a ship and tell you the direction
+of the enemy ships transponder. The transponder is a transmitting unit
+that is required by the Galactic Police to offer an identification signal
+that they use for traffic control through out the universe.
+
+This direction can then be used to locate enemy ships. When you warp in
+close to the enemy ship, their sensors pick you up and the transponder is
+disabled while you are near.
+
+The enemy ships can pick you up around 50 sectors away so you would need
+to perform a search grid to locate an enemy ship after getting into the
+general area.
+There are problems, of course, that you will need to consider. Getting
+logged off of the system because of no more time while in the area of an
+enemy ship can be dangerous if the captain signs on and finds you looking
+for him.
+
+The method for a search grid is left for your consideration.
+
+* PEACE - Make an alliance with an enemy ship captain
+
+Syntax:
+
+peace [enter]
+
+If you want to make peace with an enemy ship commander, the PEACE command
+is what you need. You are allowed to make up to 5 alliances with other
+ships. They, on the other hand, may not make an alliance with you.
+
+If you make an alliance with a ship, you should first ask that captain to
+do likewise. In this way, the alliance will work both ways.
+
+Interesting things happen when you break alliances by firing at a friendly
+ship. Have fun.
+
+* FIRE - Use phasers on an enemy ship
+
+Syntax:
+
+fire n [enter]
+
+The number of energy units [n] is fired from phasers against all ships in
+the area. The variations in damage done, if any, is determined by the
+proximity and number of ships.
+
+The Galactic Police won't allow the use of phasers on ships that are much
+weaker than yours. They will warp into the area and fire at you! if you
+continue to use phasers against a weak ship.
+
+* FIND - Find all planets within sensor range
+
+Syntax:
+
+find [enter]
+
+The find command is one you will use often. It will scan the area around
+the ship for a distance up to the technology level of your ships sensors.
+The location and distance to those planets are offered and the closest
+planet is also shown.
+
+The "GO" command uses the "find" in that "find" passes the location of the
+closest planet to the "GO" computer which will warp the ship to that
+closest planet.
+
+A lot of times, the following command string is performed:
+
+find;go;info [enter]
+
+* REMnP||r - Remote scan, place, or recall
+
+Syntax:
+
+remn [enter]     or
+remnp [enter]    or
+remnr [enter]
+
+The remote robot sensors are maintained by this command. When you buy
+remote robot sensors, you deploy them with the following command:
+
+   remnp
+
+Where 'n' is the remote robot number from 0 to 3. The 'p' after the n
+is for 'p'lace. The remote robot sensor is put at the current location
+in space, or, if your ship is on top of an enemy ship, regardless of
+whether that ships shields are down, 'p'lace will cause the remote to be
+attached to that enemy ship.
+
+If you deploy a remote onto an enemy ship, that remote will stay with
+that ship until it's destroyed of you recall it. This is so that you
+may know that ships location simply be requesting a "STAT" command, which
+offers all of your remotes locations, or by performing a sensor scan
+from that remote.
+
+If you deploy a remote near your base, you may move about the universe
+freely and pull a sensor scan from your base area any time you want. The
+format for this is:
+
+   remn
+
+Where 'n' is the number of the remote you wish to pull a sensor scan from.
+The sensor scan is exactly like a "SCAN" command except that your ship is
+not in the center of the display screen; <RR> is, depicting the remote.
+
+When you wish to recall a remote, you warp on top of it and the syntax
+for recalling the remote is then:
+
+   remnr
+
+Where 'n' is the number of the remote you are sitting on.
+
+* PROTECT - Protect a planet against destruction
+
+Syntax:
+
+protect [enter]
+
+If you find some good commerce planets and don't want any one to destroy
+them, you may buy protection for them in the form of planetary defense
+screens. They cost _MILLIONS_ of credits each, though, depending on the
+technology level of the planet. A technology level of 128 will cost you
+128 million credits!
+
+Simply dock with a planet by warping on top of it and request "protect".
+The Galactic Police will come out and sell you the protection if you
+have the cash. The screens are then erected and if anyone tries to
+bounce a torp down on some ones house, the defense screens will cause the
+torp to be reflected back into space where is presumedly continues on
+until it fizzles out.
+
+If you protect a planet, the ships that fire on it are informed that it
+has been protected and offers the name of the ship that did it.
+
+Everyone may still perform commerce.
+
+* GO - Go to the closest planet found with "FIND"
+
+Syntax:
+
+go [enter]
+
+When you have run the "FIND" command, the location of the closest planet
+is sent to the navigation computer. Performing a "GO" will cause the
+ship to warp to that planet, regardless of the distance and the class
+warp drive.
+
+This is done by having the ship break the size of the jump down such that
+your ships warp drive can handle it. There are at minimum two jumps done.
+
+Usually, the following command string is performed:
+
+find;go;info
+
+* LEAVE - Issue shore leave to the crew
+
+Syntax:
+
+leave [enter]
+
+After awhile, being in space too long gets tiresome. After docking with a
+planet, you can issue shore leave. This will boost the morale factor of
+the ship back to 100%.
+
+There is a problem, however, with shore leave. Certain, um, shall we say
+medical problems? may become apparent in the crew due to, um, shall we say
+certain "enter"actions with the natives?
+
+If a crew becomes infected, some will die. The affects of the infection,
+however, will not be felt until long after the shore leave.
+
+In addition to this, pirates will sell plague to ship captains. This
+plague can be used to seed planets waters and is considered quite
+deadly. No honest captain would ever resort to such crude methods but
+you may become infected when visiting such a planet.
+
+You simply have to let it run its course and hope that there are not any
+relapses later on after the first wave of death that rocks your crew!
+
+* TAXES - You always have to pay taxes!
+
+Syntax:
+
+taxes [enter]
+
+Well, Universal Mayhem offers death so it certainly must have taxes! When
+you buy something, the tax due accumulates. Rather than having the
+Galactic Police collect it every time you make a transaction, the taxes
+due are accumulated until you have some 10,000 credits due.
+
+If you fail to pay your taxes after repeated warnings, your ship will be
+impounded and set up for auction.
+
+You may pay your outstanding taxes ANYTIME you wish, regardless of the
+amount due.
+
+* COMMAND - Command file maintenance
+
+Syntax:
+
+command [enter]
+
+The "command" command allows you to maintain a file which contains the
+operational parameters that control your ship while you are not active.
+It describes how your ship is to act depending on what the enemy ship
+captains do.
+
+You may:
+
+o Assist a ship when it attacks someone
+
+  When you assist a ship, Universal Mayhem will wait for it to attack
+  some one. When it does, your ship will warp into the battle area and
+  start attacking the same ship.
+
+o Defend a ship that gets attacked
+
+  If a friend is being attacked, your ship will warp into the battle
+  area and start attacking the ship which is attacking your friend.
+
+o Attack a ship when it signs in
+
+  If you really don't like some one, you can cause your ship to attack
+  a ship as soon as it signs on. Your ship will need to warp into the
+  area that the ship you don't like, of course, but when it does so,
+  it will pick a fight.
+
+o Run-from a ship if it gets too close
+
+  If a ship gets too close, your ship may run from it.
+
+During a battle, your ship may have certain bail-outs to cause your ship
+to run at certain times. The bail-outs are defined as:
+
+o Bail-out when TORPEDO count drops too low
+
+o Bail-out when TIME REMAINING to play is short
+
+o Bail-out when DAMAGE is encountered
+
+X Leave a decoy behind if bail-out of fight
+
+When your ship bails-out, it will warp a random direction a random number
+of times for the maximum distance the warp drive will allow. If you have
+a decoy set, your ship will drop a shuttle and warp out. The shuttle will
+look like your ship and if the enemy captain is fooled, it will look as
+though it is continuing to receive damage.
+
+The class of the shuttle is very important in that the higher technology
+level shuttle decoy will last longer than a lower quality shuttle. The
+longer the decoy survives, the further away your ship will get.
+
+* SPYndv - Spy with Remote Robot Sensor [n]umber, [d]irection, [v]elocity
+
+Syntax:
+
+spy243
+
+You may move your remote robot sensors remotely, even if you are on the
+other side of the universe. The command takes the remote robot number to
+move, the direction, and the distance. The possible directions are:
+
+               2
+           1       3
+         4     5     6
+           7       9
+               8
+
+The possible velocities are from 1 to 5. To acquire a sensor scan from
+the remote, the following syntax is used: (This is an example for remote
+number 4. All remote umbers from 0 to 9 are allowed):
+
+                          spy4 {enter}
+
+* PLAGUE - Buy plague or seed a planet with plague
+
+Syntax:
+
+plague [enter]
+
+If there are pirates in your area, and you have fifty thousand credits,
+you may buy plague virus. This virus can be used to seed a planet so
+that any visiting ships will be infected.
+
+If you are on a planet and attempt to buy plague, you will not be
+allowed. Only when you have the plague virus and are docked with a
+planet may you seed a planet.
+
+Be careful to get off that planet quickly and NEVER return.
+
+* DESTRUCT - Destroy your ship and hope you take someone else out
+
+Syntax:
+
+destruct [enter]
+
+If you feel like ending it all, you may destroy yourself. To do so,
+however, you must enter your captains password.
+
+If you are boarding a ship and destruct, that other ship will also be
+destroyed.
+
+If there are ships in your area, they may also be damaged or destroyed
+by the explosion depending on their shield strengths.
+
+* COMETS - See where the comets are
+
+Syntax:
+
+comets [enter]
+
+You can see a list of the comets that have been found and get their
+locations. You also get to see who named them. In addition, the central
+location of the wandering ion field is given.
+
+* PING - Ping against enemy ships to learn strengths
+
+Syntax:
+
+ping [enter]
+
+If there are enemy ships in your area and you want to know how strong
+they are without firing on them, (and hence calling to arms the enemy
+ship captain), you may ping them with radar.
+
+The number returned offers the total number of million-units-of energy
+currently in the area of space excluding your own ship.
+
+* SLED - Maintain attack sleds
+
+Syntax:
+
+sled [enter]
+
+Attack sleds are small one-man attack ships that are grouped into swarms.
+You may maintain up to five groups of swarms. These swarms will attack
+any enemy ship that enters into their area.
+
+Usually left behind or surrounding your base to help guard it. They can
+also be used to guard planets or areas of space that you don't want
+other ships entering.
+
+The power available to the swarms will degrade after every attack. Simply
+adding one more sled to the swarm refuels ALL sleds in the swarm.
+
+You may deploy, add to, or recall individual swarms simply by warping
+on top of the swarm task leader and requesting "sled".
+
+* AUCTION - Make a bid on or pick up an impounded ship
+
+Syntax:
+
+auction [enter]
+
+When you see a ship up for auction, you may make a bid on it every day of
+the week except Fridays. Only if you have an outstanding bid may you
+use the "AUCTION" command to see if your bid was the highest.
+
+If your bid was the highest, the contents of the impounded ship is moved
+aboard your ship and the impounded vessel is disassembled. The crew are
+taken aboard and sent to "rehabilitation" camps, then returned to be added
+to your crew.
+
+* NAV - Navigational on up to three planets
+
+Syntax:
+
+nav [enter]
+
+You may maintain location and commerce information on up to three planets.
+You are offered the choice of viewing information or dumping a data bank.
+If you are docked with a planet, you are also given the option of putting
+the current planets information into a data bank.
+
+* SYSOP - SysOp activities
+
+Syntax:
+
+sysop [enter]
+
+The SysOp command is, of course, for SysOps only. It allows the removal
+of dead ships from the data file to make room for more ships. It also
+allows the movement of ships and bases from one point in the universe to
+other points in the universe.
+
+There are some other things that don't get talked about here.
+
+* PASS - Password changes
+
+Syntax:
+
+pass [enter]
+
+There comes times when you may need to change your ships password. To
+do so, you will be asked to enter your old password. If it's good, then
+you will be asked to enter your new password.
+
+When you enter your password, the password will _not_ be echoed to your
+screen, making sure that the sysop will not see it! After you enter the
+new password, you will be asked to enter it again.
+
+* COLOR - Toggle Color to enable/disable ANSI colors
+
+Syntax:
+
+color [enter]
+
+If the SysOp allows colors to be used with Universal Mayhem, you are asked
+if you want to allow colors when your ship is created. If you ever need to
+turn colors on or off, this command will do it for you.
+
+* BOUNTY - Display ships that have a bounty on their heads
+
+Syntax:
+
+bounty [enter]
+
+o When someone destroys a planet, there becomes a bounty on their head.
+  If you are capable of destroying the ship, you get the bounty. This
+  command displays the amount of the bounty so you can see who is worth
+  taking out if you can.
+
+o Bounty also will show what ships have what parts of the slaver death
+  weapon. You should read the MAYHEM.DOC document to see exactly what
+  the death weapon is and how it's assembled.
+
+* MAP - Display the Multi-Universe Map
+
+Syntax:
+
+map [enter]
+
+There are many different universes in this game, accessed through the
+various gateways at some of the corners of the universe. The map will
+show you how the universes are connected at the corners.
+
+The map will also show you where you are in the multiuniverse layout
+and will offer you the name of the universe you are in. The home
+universe is in the center (00, or Reticulum January psi-Horologium).
+
+* LEASH - [Pirate command]: Attach a leash to another ship
+
+Syntax:
+
+leash [enter]
+leash {command} {name} [enter]
+leash {T||S||D}
+
+If you have a pirate authorization access code, you may attach a leash
+to an enemy ship and do with it as you will, providing you and your
+ship has the ability to do so. The possible commands that are allowed
+as secondary aspects of the leash are:
+
+   o tight      - Your ship is tractored to the enemy ship for the
+                  rest of the day. If your enemy ships captain gets
+                  into the system, your ship will continue to be
+                  leashed to his ship for his play period. The leash
+                  is broken when your ship or the enemy ship bails
+                  out of a fight according to its command file
+                  directives. This means that you and the enemy ship
+                  may fight each other.
+
+   o shove      - Your ship may shove the enemy ship in any direction
+                  you choose. Its warp engines won't be able to stop
+                  your tractors unless emergency power is applied as
+                  a bail-out according to the enemy ships or your
+                  ships command file directives. You and the enemy ship
+                  may fire at each other in this configuration.
+
+   o drag       - Your ship may drag the enemy ship for a certain
+                  amount of distance until the enemy ships engines
+                  warp up to enough power to pull away from you. You
+                  may not fire at the enemy ship in this configuration
+                  but it may fire on you. You may not pull an enemy
+                  ship through a gateway.
+
+* SCOUT - [Pirate command] - Perform scout ship operations
+
+Syntax:
+
+scout {number, 0..9}[R|P|D|S|C] [enter]
+scout F [enter]
+
+If you have a pirate authorization access code, you may send scout
+ships out into the universes and have them report on what they find.
+You may send them into a specified direction, towards a goal, and
+set it to report what it finds.
+
+The commands are:
+
+   o r - Recall. This will pick up the scout ship. You must warp onto
+     the scout ship and then perform this command. When recalled, you
+     will receive a status report on what the scout saw.
+
+   o p - Place. This will drop the scout ship at your current location
+     and send it on its way.
+
+   o d - Destruct. This command will cause the powerful scout ship to
+     self destruct. Once a scout ship is destroyed, however, it can
+     never be replaced, even by boarding an enemy ship. The reason you
+     would want to destruct a scout ship is that you may have it sneak
+     up on an enemy ship and latch onto it with the scout ships
+     magnetic grapples before blowing its engines. It causes all kinds
+     of problems on the enemy ship.
+
+   o s - Status. This command will cause the scout ship offered to
+     give a status report. The information acquired is quite useful
+     but by asking it to report over radio, the scout ships location
+     is easily found.
+
+   o c - Clear. This command will cause the accumulated data a scout ship
+     has acquire to be cleared. It is normally done when you recall your
+     scout or when it gets to station and reports. It's not cleared
+     automatically so that you can request a report any time after you
+     recall your scout.
+
+   o f - Full. This command will offer a full report on all scout ships.
+     You are told the location, inbound, outbound, or station status of
+     each ship, if the ship is on board, and if the ship is within sensor
+     range of the mother ship.
+
+* CHAT - Page the SysOp
+
+Syntax:
+
+chat [enter]
+
+This command will page the system operator so that you may start a
+dialog with the operator. The operator, if it desires communication, will
+hit control-T to start the talk and control-E to end it.
+
+* OWN - Where are the planets you own?
+
+Syntax:
+
+own [enter]
+
+This command will show you the location of the planets you own.
+
+* # - Keyboard Macros.
+
+Syntax:
+
+# [enter]
+# [0 through 5] [enter]
+# [0 through 5] [command string to save]
+
+To view your Keyboard Macros, hit # and then enter.
+
+To execute a Keyboard Macro, enter # followed by the number of the stored
+Keyboard Macro you wish to execute.
+
+To store and then execute a Keyboard Macro, enter # followed by a number from
+0 through 5 and then follow it with the command string..
+
+Examples:
+
+
+                #0w910;w910;w910;find;go;protect;rpt30
+
+This will save the following Keyboard Macro to Macro number 0:
+
+                w910;w910;w910;find;go;protect;rpt30
+
+After you enter the Keyboard Macro, it will be executed. To execute the
+Keyboard Macro again, you would type:
+
+                #0
+
+To view your Keyboard Macros, you would type:
+
+                #
+
+And you would see something like this:
+
+        #0 'w910;w910;w910;find;go;protect;rpt30'
+        #1 ''
+        #2 ''
+        #3 ''
+        #4 ''
+        #5 ''
+
+The '' indicates the Macro Command String is empty.
+

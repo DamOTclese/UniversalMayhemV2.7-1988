@@ -1,0 +1,48 @@
+File area 3, "Universal Mayhem Files"
+
+Run down of Universal Mayhem:
+
+
+You start out with a ship containing some power, shields, a warp drive, and
+some cargo, amoung other things. You may warp around, looking for some good
+planets to trade with by buying and selling amoung them. In this way, you may
+acquire more money with which to build up your ship.
+
+After building up a ship which is strong enough to survive a conflict, you
+may go searching for other enemy ships to destroy. There are a variety of
+command to choose from to help you locate enemy ships. Type HELP to get a
+list of all the command. You may also type HLP1 through HLP22 to get detailed
+information on a particular command, (HELP will show you what number goes with
+each command).
+
+You may build bases, make alliances with other ships by declairing peace, and
+of course, you may break those alliances. Subspace messages may be sent and
+receive. This is done by having messages sent to the FidoNet software where
+it can be picked up and echo mailed to other Universal Mayhem sites.
+
+- -
+
+If you have found a couple of good commerce planets, you may elect to perform
+a commerce loop with them. This "commerce loop" is a string of commands all
+placed together seperated by the ; character. You could, for instance, do:
+
+1) Warp to a cheap planet
+2) Buy everytthing that you can
+3) Warp to a high price planet
+4) Sell everything you can
+5) Loop on this up to 30 times.
+
+To extend the loop so that you need nott enter the entire command line again,
+you may simply hit 'A' for "again" and the command line will be re-executed.
+
+- -
+
+A status command will inform you of your ship, base, and remote sensors
+locations as well as ship stores and consumables. STAND will tell you where
+you stand in the game and show the top 10 killers and strong ships.
+
+- -
+
+For documentation, download MAYHEM.DOC. If you are unable to find it, contact
+your SysOp or send a subspace message to ALL asking if they know where it is.
+

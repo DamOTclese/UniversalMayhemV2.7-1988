@@ -1,0 +1,3910 @@
+po box 2199
+auburn washington
+98071
+
+
+      U N I V E R S A L     M A Y H E M     V E R S I O N  2.3
+            Copy Written 1988/1989,  Fredric L. Rice
+               (1:365/47) (Mayhem Home Central)
+               (1:128/74) (Mayhem Home Central)
+       (1:102/901) (Mayhem Home West Coast. Author access)
+    (11:9000/0) (Australia Down Under Home. 011-61-3-560-9292)
+
+Author Access  . . . . . . . . . . . . . . . . . . . . . . 01.00.00.00.00
+
+   Mailing address . . . . . . . . . . . . . . . . . . . . 01.01.00.00.00
+
+   Network address . . . . . . . . . . . . . . . . . . . . 01.02.00.00.00
+
+   Privileges  . . . . . . . . . . . . . . . . . . . . . . 01.03.00.00.00
+
+   Self defense  . . . . . . . . . . . . . . . . . . . . . 01.03.00.01.00
+
+   Thanks, everyone  . . . . . . . . . . . . . . . . . . . 01.03.00.01.01
+
+      Business Cards . . . . . . . . . . . . . . . . . . . 01.03.01.00.00
+
+   Version Update Pointers <------------------------------ 01.03.01.01.00
+
+Commands . . . . . . . . . . . . . . . . . . . . . . . . . 02.00.00.00.00
+
+   Entering them . . . . . . . . . . . . . . . . . . . . . 02.00.01.00.00
+
+   Detailed  . . . . . . . . . . . . . . . . . . . . . . . 02.01.00.00.00
+
+      A (again)  . . . . . . . . . . . . . . . . . . . . . 02.01.01.00.00
+
+      AUCTION  . . . . . . . . . . . . . . . . . . . . . . 02.01.02.00.00
+
+      B (Buy)  . . . . . . . . . . . . . . . . . . . . . . 02.01.03.00.00
+
+         What can you buy? . . . . . . . . . . . . . . . . 02.01.03.01.00
+
+            Remote robot sensors . . . . . . . . . . . . . 02.01.03.01.01
+
+            Energy . . . . . . . . . . . . . . . . . . . . 02.01.03.01.02
+
+            Cargo  . . . . . . . . . . . . . . . . . . . . 02.01.03.01.03
+
+            Crew members . . . . . . . . . . . . . . . . . 02.01.03.01.04
+
+            Warp drive . . . . . . . . . . . . . . . . . . 02.01.03.01.05
+
+            Shuttle transports . . . . . . . . . . . . . . 02.01.03.01.06
+
+            Hull patches . . . . . . . . . . . . . . . . . 02.01.03.01.07
+
+            Sensor devices . . . . . . . . . . . . . . . . 02.01.03.01.08
+
+            Cloaking devices . . . . . . . . . . . . . . . 02.01.03.01.09
+
+            Torpedoes . . . . . . . . . . . . . . . . . . . 02.01.03.01.10
+
+            Attack sleds . . . . . . . . . . . . . . . . . 02.01.03.01.11
+
+         How do you buy? . . . . . . . . . . . . . . . . . 02.01.03.02.00
+
+      BASE . . . . . . . . . . . . . . . . . . . . . . . . 02.01.04.00.00
+
+         Building a base . . . . . . . . . . . . . . . . . 02.01.04.01.00
+
+         Move supplies from ship to base . . . . . . . . . 02.01.04.02.00
+
+         Move supplies from base to ship . . . . . . . . . 02.01.04.03.00
+
+         Dissassemblement of base  . . . . . . . . . . . . 02.01.04.04.00
+
+         Repairing a damaged base  . . . . . . . . . . . . 02.01.04.05.00
+   
+      BOARD  . . . . . . . . . . . . . . . . . . . . . . . 02.01.05.00.00
+
+      COMETS . . . . . . . . . . . . . . . . . . . . . . . 02.01.06.00.00
+
+      COMMAND  . . . . . . . . . . . . . . . . . . . . . . 02.01.07.00.00
+
+         ATTACK  . . . . . . . . . . . . . . . . . . . . . 02.01.07.01.00
+
+            Swarm attacks/defense  . . . . . . . . . . . . 02.01.07.01.01
+  
+         DEFEND  . . . . . . . . . . . . . . . . . . . . . 02.01.07.02.00
+
+         ASSIST  . . . . . . . . . . . . . . . . . . . . . 02.01.07.03.00
+
+         RUN-FROM  . . . . . . . . . . . . . . . . . . . . 02.01.07.04.00
+
+         BAIL-OUT  . . . . . . . . . . . . . . . . . . . . 02.01.07.05.00
+
+            On Power . . . . . . . . . . . . . . . . . . . 02.01.07.05.01
+
+            On Torpedo . . . . . . . . . . . . . . . . . . 02.01.07.05.02
+
+            On Time Remaining  . . . . . . . . . . . . . . 02.01.07.05.03
+
+            On Damage Received . . . . . . . . . . . . . . 02.01.07.05.04
+
+            Decoy  . . . . . . . . . . . . . . . . . . . . 02.01.07.05.05
+
+         PHASER  . . . . . . . . . . . . . . . . . . . . . 02.01.07.05.06
+
+         DEFAULT fight . . . . . . . . . . . . . . . . . . 02.01.07.05.07
+
+         Command file summary  . . . . . . . . . . . . . . 02.01.07.06.00
+
+      DESTRUCT . . . . . . . . . . . . . . . . . . . . . . 02.01.08.00.00
+
+      FIND . . . . . . . . . . . . . . . . . . . . . . . . 02.01.09.00.00
+
+      FIRE . . . . . . . . . . . . . . . . . . . . . . . . 02.01.10.00.00
+
+      GO . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.11.00.00
+
+      HELP . . . . . . . . . . . . . . . . . . . . . . . . 02.01.12.00.00
+
+         HLP . . . . . . . . . . . . . . . . . . . . . . . 02.01.12.01.00
+
+      INFO . . . . . . . . . . . . . . . . . . . . . . . . 02.01.13.00.00
+
+      LEAVE  . . . . . . . . . . . . . . . . . . . . . . . 02.01.14.00.00
+
+      LONG . . . . . . . . . . . . . . . . . . . . . . . . 02.01.15.00.00
+
+      MSG  . . . . . . . . . . . . . . . . . . . . . . . . 02.01.16.00.00
+
+	 Reading your subspace mail  . . . . . . . . . . . 02.01.16.01.00
+
+	 Sending subspace mail . . . . . . . . . . . . . . 02.01.16.02.00
+
+      NAME . . . . . . . . . . . . . . . . . . . . . . . . 02.01.17.00.00
+
+      NAMES  . . . . . . . . . . . . . . . . . . . . . . . 02.01.18.00.00
+
+      NAV  . . . . . . . . . . . . . . . . . . . . . . . . 02.01.19.00.00
+
+      PASS . . . . . . . . . . . . . . . . . . . . . . . . 02.01.19.01.00
+
+      PEACE  . . . . . . . . . . . . . . . . . . . . . . . 02.01.20.00.00
+
+         Mutual Alliances  . . . . . . . . . . . . . . . . 02.01.20.01.00
+
+      PING . . . . . . . . . . . . . . . . . . . . . . . . 02.01.21.00.00
+
+      PLAGUE . . . . . . . . . . . . . . . . . . . . . . . 02.01.22.00.00
+
+      POWER  . . . . . . . . . . . . . . . . . . . . . . . 02.01.23.00.00
+
+      PROTECT  . . . . . . . . . . . . . . . . . . . . . . 02.01.24.00.00
+
+      QUIT . . . . . . . . . . . . . . . . . . . . . . . . 02.01.25.00.00
+
+      REM  . . . . . . . . . . . . . . . . . . . . . . . . 02.01.26.00.00
+
+         Scanning from Remote  . . . . . . . . . . . . . . 02.01.26.01.00
+
+         Deploying a Remote  . . . . . . . . . . . . . . . 02.01.26.02.00
+
+         Recalling a Remote  . . . . . . . . . . . . . . . 02.01.26.03.00
+
+      RPT  . . . . . . . . . . . . . . . . . . . . . . . . 02.01.27.00.00
+
+      S (Sell) . . . . . . . . . . . . . . . . . . . . . . 02.01.28.00.00
+
+      SCAN . . . . . . . . . . . . . . . . . . . . . . . . 02.01.29.00.00
+
+         Ships . . . . . . . . . . . . . . . . . . . . . . 02.01.29.01.00
+
+         Bases . . . . . . . . . . . . . . . . . . . . . . 02.01.29.02.00
+
+         Remote robot sensors  . . . . . . . . . . . . . . 02.01.29.03.00
+
+         Attack sled swarms  . . . . . . . . . . . . . . . 02.01.29.04.00
+
+         Stars, planets, mines, black holes  . . . . . . . 02.01.29.05.00
+
+         Galactic Police . . . . . . . . . . . . . . . . . 02.01.29.06.00
+
+         Ion storms  . . . . . . . . . . . . . . . . . . . 02.01.29.07.00
+
+         Comets  . . . . . . . . . . . . . . . . . . . . . 02.01.29.08.00
+
+         Pirates . . . . . . . . . . . . . . . . . . . . . 02.01.29.09.00
+
+         Goal Items  . . . . . . . . . . . . . . . . . . . 02.01.29.10.00
+
+      SLED . . . . . . . . . . . . . . . . . . . . . . . . 02.01.30.00.00
+
+      SPY  . . . . . . . . . . . . . . . . . . . . . . . . 02.01.31.00.00
+
+      STAND  . . . . . . . . . . . . . . . . . . . . . . . 02.01.32.00.00
+
+      STAT . . . . . . . . . . . . . . . . . . . . . . . . 02.01.33.00.00
+
+      T (Torpedoes) . . . . . . . . . . . . . . . . . . . . 02.01.34.00.00
+
+      TAXES  . . . . . . . . . . . . . . . . . . . . . . . 02.01.35.00.00
+
+      TIME . . . . . . . . . . . . . . . . . . . . . . . . 02.01.36.00.00
+
+      W (Warp drive) . . . . . . . . . . . . . . . . . . . 02.01.37.00.00
+
+      COLOR  . . . . . . . . . . . . . . . . . . . . . . . 02.01.40.00.00
+
+      BOUNTY . . . . . . . . . . . . . . . . . . . . . . . 02.01.50.00.00
+
+      MAP  . . . . . . . . . . . . . . . . . . . . . . . . 02.01.51.00.00
+
+      SCOUT  . . . . . . . . . . . . . . . . . . . . . . . 02.01.52.00.00
+
+      Scout technical aspects  . . . . . . . . . . . . . . 02.01.52.01.00
+
+      LEASH  . . . . . . . . . . . . . . . . . . . . . . . 02.01.53.00.00
+
+      OWN  . . . . . . . . . . . . . . . . . . . . . . . . 02.01.54.00.00
+
+      # - Keyboard Macros  . . . . . . . . . . . . . . . . 02.01.55.00.00
+
+   Command Files . . . . . . . . . . . . . . . . . . . . . 02.02.00.00.00
+
+      ATTACK . . . . . . . . . . . . . . . . . . . . . . . 02.02.01.00.00
+
+      ASSIST . . . . . . . . . . . . . . . . . . . . . . . 02.02.02.00.00
+
+      DEFEND . . . . . . . . . . . . . . . . . . . . . . . 02.02.03.00.00
+
+      RUN-FROM . . . . . . . . . . . . . . . . . . . . . . 02.02.03.00.00
+
+      BAIL-OUT . . . . . . . . . . . . . . . . . . . . . . 02.02.04.00.00
+
+         POWER . . . . . . . . . . . . . . . . . . . . . . 02.02.04.01.00
+
+         TORP  . . . . . . . . . . . . . . . . . . . . . . 02.02.04.02.00
+
+         TIME  . . . . . . . . . . . . . . . . . . . . . . 02.02.04.03.00
+
+         DAMAGE  . . . . . . . . . . . . . . . . . . . . . 02.02.04.04.00
+
+   Stringing . . . . . . . . . . . . . . . . . . . . . . . 02.03.00.00.00
+
+   Help  . . . . . . . . . . . . . . . . . . . . . . . . . 02.04.00.00.00
+
+Description  . . . . . . . . . . . . . . . . . . . . . . . 03.00.00.00.00
+
+Installation . . . . . . . . . . . . . . . . . . . . . . . 04.00.00.00.00
+
+   Subdirectories  . . . . . . . . . . . . . . . . . . . . 04.01.00.00.00
+
+   Configuration file  . . . . . . . . . . . . . . . . . . 04.02.00.00.00
+
+      XSize of the universe  . . . . . . . . . . . . . . . 04.02.01.00.00
+
+      YSize of the universe  . . . . . . . . . . . . . . . 04.02.02.00.00
+
+      System operators password  . . . . . . . . . . . . . 04.02.03.00.00
+
+      Time to play . . . . . . . . . . . . . . . . . . . . 04.02.04.00.00
+
+      Starting allowed time to play  . . . . . . . . . . . 04.02.05.00.00
+
+      Ending allowed time to play  . . . . . . . . . . . . 04.02.06.00.00
+
+      Number of players maximum  . . . . . . . . . . . . . 04.02.07.00.00
+
+      Subspace (EchoMail) mail Directory . . . . . . . . . 04.02.08.00.00
+
+      LASTMSG.SHP file . . . . . . . . . . . . . . . . . . 04.02.08.01.00
+
+      FidoNetwork Mailing address  . . . . . . . . . . . . 04.02.09.00.00
+
+      Subspace (EchoMail) outbound network address . . . . 04.02.10.00.00
+
+      Communication Port Assignment  . . . . . . . . . . . 04.02.10.01.00
+
+      Allow Subspace Mail  . . . . . . . . . . . . . . . . 04.02.10.02.00
+
+      Watch Carrier Detect . . . . . . . . . . . . . . . . 04.02.10.03.00
+
+      Allow ANSI color to be used  . . . . . . . . . . . . 04.02.10.04.00
+
+      Mayhem Statistics Feature  . . . . . . . . . . . . . 04.02.10.05.00
+
+      Address for Statistics . . . . . . . . . . . . . . . 04.02.10.06.00
+
+      BAD WORD Exclusion look-up file  . . . . . . . . . . 04.02.10.07.00
+
+      Reset the computer automatically if Mayhem crashes . 04.02.10.08.00
+
+      Redirection  . . . . . . . . . . . . . . . . . . . . 04.02.11.00.00
+
+Maintenance  . . . . . . . . . . . . . . . . . . . . . . . . 05.00.00.00.00
+
+Network Mail . . . . . . . . . . . . . . . . . . . . . . . 06.00.00.00.00
+
+Network Version  . . . . . . . . . . . . . . . . . . . . . 07.00.00.00.00
+
+Other Information  . . . . . . . . . . . . . . . . . . . . Appendages
+
+Problems . . . . . . . . . . . . . . . . . . . . . . . . . 08.00.00.00.00
+
+Un-documented aspects . . . . . . . . . . . . . . . . . . . 09.00.00.00.00
+
+   FREE  . . . . . . . . . . . . . . . . . . . . . . . . . 09.01.00.00.00
+
+   SYSOP . . . . . . . . . . . . . . . . . . . . . . . . . 09.02.00.00.00
+
+      Removing unwanted/abandoned ships . . . . . . . . . 09.02.01.00.00
+
+      Remove a specific ship . . . . . . . . . . . . . . . 09.02.01.01.00
+
+      Move a base, ship, or return scout ships . . . . . . 09.02.01.02.00
+
+      Display a ships information  . . . . . . . . . . . . 09.02.01.03.00
+
+      Expanding the users data file  . . . . . . . . . . . 09.02.02.00.00
+
+      Suspension to DOS  . . . . . . . . . . . . . . . . . 09.02.03.00.00
+
+      Edit user power/credits/time . . . . . . . . . . . . 09.02.04.00.00
+
+      Taking planets away  . . . . . . . . . . . . . . . . 09.02.05.00.00
+
+      Remove all ships that have not moved . . . . . . . . 09.02.06.00.00
+
+      Import remote players (Statistics feature) . . . . . 09.02.07.00.00
+
+Warnings . . . . . . . . . . . . . . . . . . . . . . . . . 10.00.00.00.00
+
+Getting destroyed  . . . . . . . . . . . . . . . . . . . . 10.01.00.00.00
+
+CREATE.EXE . . . . . . . . . . . . . . . . . . . . . . . . 11.00.00.00.00
+
+MAYHEM.EXE . . . . . . . . . . . . . . . . . . . . . . . . 12.00.00.00.00
+
+LASTUPDT.SHP . . . . . . . . . . . . . . . . . . . . . . . 13.00.00.00.00
+
+SHIP.HLP . . . . . . . . . . . . . . . . . . . . . . . . . 14.00.00.00.00
+
+SHIP.ERR . . . . . . . . . . . . . . . . . . . . . . . . . 15.00.00.00.00
+
+Error codes  . . . . . . . . . . . . . . . . . . . . . . . 15.01.00.00.00
+
+SHIP.LOG . . . . . . . . . . . . . . . . . . . . . . . . . 16.00.00.00.00
+
+GOALS.DAT  . . . . . . . . . . . . . . . . . . . . . . . . 16.01.00.00.00
+
+SHIP.INF . . . . . . . . . . . . . . . . . . . . . . . . . 16.02.00.00.00
+
+SHIP.STD . . . . . . . . . . . . . . . . . . . . . . . . . 16.03.00.00.00
+
+ECHOSTAT.DAT . . . . . . . . . . . . . . . . . . . . . . . 16.04.00.00.00
+
+How to bounce a player . . . . . . . . . . . . . . . . . . 17.00.00.00.00
+
+How to report active player name . . . . . . . . . . . . . 18.00.00.00.00
+
+How to invoke chat mode  . . . . . . . . . . . . . . . . . 18.01.00.00.00
+
+CHAT command . . . . . . . . . . . . . . . . . . . . . . . 18.01.01.00.00
+
+INTERRUPT Driven Serial I/O  . . . . . . . . . . . . . . . 18.01.02.00.00
+
+ERRORLEVEL meanings  . . . . . . . . . . . . . . . . . . . 19.00.00.00.00
+
+*.SHP files  . . . . . . . . . . . . . . . . . . . . . . . 20.00.00.00.00
+
+Memory requirements  . . . . . . . . . . . . . . . . . . . 21.00.00.00.00
+
+When a BIG Universe is created . . . . . . . . . . . . . . 21.01.00.00.00
+
+Sit around for awhile  . . . . . . . . . . . . . . . . . . 22.00.00.00.00
+
+Somethings for the SysOp to watch  . . . . . . . . . . . . 23.00.00.00.00
+
+Multi-Universe Mayhem Version 1.4  . . . . . . . . . . . . 24.00.00.00.00
+
+Multi-Universe Map . . . . . . . . . . . . . . . . . . . . 24.00.00.00.01
+
+Australia . . . . . . . . . . . . . . . . . . . . . . . . 25.00.00.00.00
+
+
+
+Author Access  . . . . . . . . . . . . . . . . . . . . . . 01.00.00.00.00
+
+   The author of Universal Mayhem, The C version, would like to retain
+   total contact with both the System Operators who maintain the game
+   and the users who play it. Because of this, the author has placed
+   himself into a highly visible condition by offering complete
+   support at no cost to the public domain. This includes the mailing
+   of Universal Mayhem, the C version, updates, and support either by
+   telephone or by United States mail.
+
+   This attitude and posture was developed for a variety of reasons.
+   The public ones have been described before in FidoNews so I will not
+   repeat them in great detail. The major reason for distributing
+   Universal Mayhem across the FidoNet community for no charge is to
+   promote the good will of the net and to provide a forum in which
+   hostilities may be vent through symbolic means.
+
+   As always, Universal Mayhem is Public Domain and NO "company" which
+   steals from the Public Domain and sells my software, even at cost,
+   will NOT be tolerated. Pick it up freely and pass it on freely.
+
+   There is an initial release notice that players will NEVER see. This
+   is because the displayed notice does not go through the modem, even
+   when output is redirected. This notice should never be edited out of
+   the executable. Indeed, if an attempt is made to edit even one
+   character of the release notice, Universal Mayhem will detect the
+   tampering and erase all Universal Mayhem files. In addition, you
+   get a nasty notice before returning to DOS, (see section
+   01.03.00.01.00).
+
+Mailing address  . . . . . . . . . . . . . . . . . . . . . 01.01.00.00.00
+
+   United States Mail. What can I say? You can still send a letter to
+   any place in the states for some .25 cents. That's quite a good
+   price, if you think about it. The problems arise when you really
+   want to get your hands on some good software and have to wait for
+   two or more days to get it.
+
+   In any event, if you would like to be placed on the distribution
+   mailing list, or would simply like to converse by written media,
+   here is my mailing address:
+
+   Fredric L. Rice
+   Universal Mayhem
+   674 East Bridwell
+   Glendora, California.
+   91740
+
+Network address  . . . . . . . . . . . . . . . . . . . . . 01.02.00.00.00
+
+   --- Version 1.50 Note:
+
+   1:365/47   Mayhem Home East Coast  904-368-6945 Smokeys Place
+   1:128/74   Mayhem Home Central     719-390-0529 Hornets Nest
+   1:102/901  Mayhem Home West Coast. 818-335-0128 Universal Mayhem
+
+Privileges . . . . . . . . . . . . . . . . . . . . . . . . 01.03.00.00.00
+
+   The author _DOES_ have some special privileges that are not going
+   to be made accessible to the call-up user. Indeed, the System
+   Operator has TOTAL control over everything Universal Mayhem the C
+   version, (UMC), does.
+
+   --- Version 1.5 Notes:
+
+   There is no more shelling to DOS from a remote system. Since the Mayhem
+   program does it's own redirection now, the shell would cause the local
+   system to not perform any redirection, making the program shell, but
+   without the remote system being able to see anything or enter anything.
+
+Business Cards . . . . . . . . . . . . . . . . . . . . . . 01.03.01.00.00
+
+   When you become a Universal Mayhemite, ask for business cards. I will
+   mail you some cards free of charge for you to hand to your players. The
+   cards don't offer players anything other than a neat card to have
+   that shows they are members of the Universal Mayhem killer team!
+
+Self defense . . . . . . . . . . . . . . . . . . . . . . . 01.03.00.01.00
+
+   When Universal Mayhem loads, the SysOp will see a notice dealing with
+   copyrights. As a method of self defense against having this message
+   removed, (which the user never sees), or altered, Universal Mayhem will
+   detect any modifications to its strings and finding any, will remove
+   all _Mayhem_ files it can find. It will then print a nasty message and
+   then terminates.
+
+   There is no reason why Mayhem can't be reinstalled from the original
+   archive file or distribution diskette, however, so the punitive measure
+   of having it remove itself is almost worthless.
+
+   What I considered doing was to have it remove all .EXE and .COM files
+   along with any .BBS files it could find. This would not have been in
+   keeping with Fidonet spirit so I have it remove only my files. Not only
+   that but a corrupted file could cause the checksums to not match. In
+   any event, nothing bad will happen...
+
+Thanks, everyone . . . . . . . . . . . . . . . . . . . . . 01.03.00.01.01
+
+   [On soap box]
+
+   It's unbelievable the good will of the people you meet in the electronic
+   computer board media. The system operators and the end users all assisted
+   in the development of this game and provided the lions share of testing.
+   They still do.
+
+   It was they who had to contend with the system crashes which tied up the
+   computer until they got home, not me. It was also they who considered the
+   possibilities of the game rather than dropping it entirely when they came
+   home to find it locked up. They also spent thousands of dollars, all told,
+   to report bugs and acquire the latest updates. All over the world, they
+   wrote, offering return postage to test my game. Or to offer simple praise.
+
+   Well, version 1.40 represents the first real release version of Universal
+   Mayhem. There have been many systems that ran Universal Mayhem in the
+   past three years. Few of those remain and are replaced by systems that
+   are compatible to the older version 1.30. Beta tests are over, the Mayhem
+   truly begins.
+
+   This game has represented a major factor in my life for the past three
+   years; it continue to do so. You, as the user, and you as the system
+   operator, have my word that no reported bug will go un-repaired. No question
+   will go unanswered. And no suggestion will be dismissed out of hand.
+
+   [Soap box mode suspended]
+
+Version Update Pointers <--------------------------------- 01.03.01.01.00
+
+   Through out this document, you will notice things that look like:
+
+   --- Version 1.00 Note:
+
+   This points to an area of the documentation that shows an update
+   that is of interest to SysOps who have already seen the older versions
+   of the documentation. A text editor being used to find these pointers
+   for faster information on new features was the reason these pointers
+   were put in.
+
+Commands . . . . . . . . . . . . . . . . . . . . . . . . . 02.00.00.00.00
+
+   The various commands that are allowed are described:
+
+Entering them  . . . . . . . . . . . . . . . . . . . . . . 02.00.01.00.00
+
+   While entering anything into Universal Mayhem, if you don't do anything
+   within three minutes, you will get a warning. The terminal will beep a
+   few times and display a warning.
+
+   After an additional minute, you will be bounced out to the BBS software.
+   If the BBS software used a smart batch file to call Universal Mayhem, it
+   will check for an errorlevel of 42 and bypass the BBS altogether,
+   resetting the system, rather than returning you to it to await an
+   additional time out.
+
+   For additional information, see the errorlevels described towards the
+   end of the document.
+
+   One other thing that was added to Universal Mayhems keyboard/com port
+   entry routine: If you enter a command and don't want to hit a lot of
+   backspaces to get rid of it all and start over, simply hit:
+
+   CONTROL-X
+
+Detailed . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.00.00.00
+
+   The Universal Mayhem game is run by having the player enter a
+   series of commands at the game prompt. Actually, these commands may
+   be strung together and run en mass.
+
+A (again)  . . . . . . . . . . . . . . . . . . . . . . . . 02.01.01.00.00
+
+   After entering a long string of commands, such as when you create
+   a commerce loop where you buy things at low cost at one planet,
+   warp to another planet, sell the things at high cost, and warp back
+   to the original planet, you may not want to re-enter the command
+   string again after it's completed its execution.
+
+   Simply hit 'A' and then return and and the previous command string
+   will be executed again. You may 'A'gain as many times as you wish.
+
+AUCTION  . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.02.00.00
+
+   When you perform a 'NAMES' command, you may see some ships that
+   have been impounded. This is because their ships captains were either
+   unable to pay their taxes, or they were stupid and refused to pay
+   their taxes.
+
+   When taxes are due, the captain gets 10 sign-in warnings and then
+   the ship is impounded. All of the cash on board, if any, is
+   transferred to the Galactic Police and the ship remains at station
+   until it's disposition is determined by the highest bidder.
+
+   When you see a ship has been impounded, you may place a bid on the
+   ship. The 'NAMES' command will also show you who else has bid on
+   the ships. You may only bid on one ship at a time.
+
+   When 'AUCTION' is performed, you will be offered a list of the
+   ships that are available. If you want to bid on one, you must offer
+   the number of the ship and then the amount of your bid. You may
+   not place a bid on Fridays. This is because those ships that have
+   bids outstanding are the only ships that are allowed to perform the
+   AUCTION command on Friday.
+
+   The way it works:
+
+   Ships may place bids on impounded ships every day of the week except
+   Fridays. On Fridays, those ships that have bids outstanding may check
+   in to see if theirs was the highest bid. If so, all of the contents
+   of the impounded ship gets transferred to the bidders ship. If the
+   bid came in low, no funds are exchanged and the outstanding bid is
+   removed and the captain may make another bid if desired.
+
+   When the captain of a ship makes a bid, the Galactic Police will make
+   sure that the captain has enough credits to cover the bid. If so,
+   then the bid is allowed to progress. If on the following Friday the
+   captain does not have enough cash to cover the bid and the bid is
+   the winning bid, the captain still gets the contents of the ship but
+   the remaining balance due to put into his taxes due.
+
+   If that captain fails to pay the taxes, that ship will be impounded
+   and put up for auction as well. It doesn't pay to bid billions and
+   billions and then loose it all later.
+
+   The starting bid is set at 1000 for all ships. A bid of less than this
+   will not be accepted.
+
+B (Buy)  . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.03.00.00
+
+   You make money with which to buy power such that you may become
+   invincible and become God. The buying and selling of items in a
+   loop is called a "commerce loop" through out the context of this
+   document.
+
+   You buy things by offering a command that looks something like
+   this:
+
+   b2100
+
+   This will buy 100 units of cargo. To see what can be bought, you may
+   simply type a 'B' and hit enter at the game prompt. You may buy more
+   than one item at a time by putting ; marks after buying commands:
+
+   b11000;b44
+
+   This will buy 1000 units of energy and a class 4 higher warp drive.
+   The items that may be bough a numbered from 0 to 9 and A. You must
+   have enough money to buy things and if you ever want to know the
+   price of something, type 'INFO' after docking with a planet, (you
+   have to dock with a planet before you may buy and sell things).
+
+What can you buy?  . . . . . . . . . . . . . . . . . . . . 02.01.03.01.00
+
+Remote robot sensors . . . . . . . . . . . . . . . . . . . 02.01.03.01.01
+
+   You may buy up to four Remote Robot Sensors. They offer a wide
+   variety of possibilities that you might find interesting. Some of the
+   more interesting aspects of remote robot sensors:
+
+   o You place a remote near your base or a good commerce planet and
+     warp across to the other side of the universe. You may take a sensor
+     scan from that remote sensor to see what's in that area. Likewise,
+     you may place a remote robot near an enemy base to keep an eye on it.
+
+   o You may attach a remote robot sensor on an enemy ship. This is done
+     by warping on top of the enemy ship and deploying the remote. When
+     the enemy ship moves, the remote sticks to it, allowing you to always
+     know where the ship is. You can perform a sensor scan from that remote
+     robot sensor to find the ship and see what's around it, or simply
+     request a STAT command to see the position of the attached remote.
+
+   o You may send them into black holes and perform sensor scans of where
+     they come out to see what's on the other side of the black hole. You
+     are allowed to move the remote robots by radio even through black
+     holes, (this is the SPY command).
+
+   There are many other reasons for using remote robot sensors. They can
+   also be placed on allied ships to keep an eye on them. This was an
+   interesting aspect to the game that I hadn't thought about but was used
+   by one of the players on the beta test version where I work. By
+   attaching a remote onto an aggressive ship, keeping track of it, he would
+   perform a STAT every now and then to see if the remote was coming
+   closer to him. If it did, then the ship its attached to is under command
+   file control and possible ATTACKing him. By STATing, then, he was
+   able to know when to run for it.
+
+Energy . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.03.01.02
+
+   Just about everything your ship does requires power. You may buy and
+   sell power as needed but you must have enough power to operate your
+   shields and warp drive when warping around.
+
+   Shield power is used to defend your ship against enemy attack. When
+   your ship is unattended, power is automatically diverted from your
+   ships engines to your shields.
+
+   --- Version 1.20 Note:
+
+   It was suggested by Martin Lindquist (153/507) that power not be
+   sell-able. This was a suggestion aimed towards making it a little
+   harder to acquire a lot of cash quickly.
+
+   Let's see how this works and if it's messy, we'll yank it out, get
+   an air line ticket and snuff that bastard right out! (Chortle!)
+
+Cargo  . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.03.01.03
+
+   Cargo is used simply as something to buy and sell to make credits.
+
+Crew members . . . . . . . . . . . . . . . . . . . . . . . 02.01.03.01.04
+
+   Crew members come in handy and are needed on board for a variety of
+   reasons. The least of which is running your ships functions. When you
+   run out of crew members, you won't be able to operate life support or
+   man shuttle crafts.
+
+   In addition, when boarding enemy bases, you need a lot of crew members
+   to fight off the resistance encountered on the enemy base, (if the
+   enemy captain has manned the base.
+
+Warp drive . . . . . . . . . . . . . . . . . . . . . . . . 02.01.03.01.05
+
+   You may operate a warp drive up to a class 50 warp. The class warp
+   drive determines the maximum distance jump-able in one move. The
+   reason that a class 50 is the maximum is because of the enormous
+   amount of power required to jump as regards to lower to higher
+   warp values.
+
+   As progressively higher warps are encountered, the energy curve
+   becomes bewildering. A warp speed of 50 is the theoretical limit as
+   technology hits an impassable wall at this speed.
+
+Shuttle transports . . . . . . . . . . . . . . . . . . . . 02.01.03.01.06
+
+   Shuttles are needed to transport objects to and from orbit. If you
+   don't have a shuttle, you will be charged extra for transport when
+   you buy and sell things.
+
+   In addition, shuttles are used as decoys when your ship is fighting
+   unattended for you and things look grim. The higher class shuttle
+   used as a decoy, the better and longer the attacking ship will be
+   tied up shooting at your decoy and not looking for your ship.
+
+Hull patches . . . . . . . . . . . . . . . . . . . . . . . 02.01.03.01.07
+
+   The ships hull can be fortified with metallic weave titanium hull
+   patches. A STATus of the ship shows the percentage of hull integrity
+   that your ship has.
+
+   When your ship has run out of power and is being pounded on by an
+   enemy ship, the hull is your ships last defense against intrusion. The
+   crew may be all dead, but your ship _may_ survive for when you come
+   back, (true, your ship will be adrift and powerless and you will
+   probably have to destruct, but the enemy captain may be cheated of
+   the kill).
+
+   Your damage starts when the hull integrity slips below 100%.
+
+Sensor devices . . . . . . . . . . . . . . . . . . . . . . 02.01.03.01.08
+
+   Sensors are very useful items. They allow the range of the sensor
+   scan array to be extended based on the technology level.
+
+   When you perform a FIND for planets, the distance of the find is
+   determined by the sensors technology level. Likewise, when you perform
+   a sensor scan, if your sensors class are greater or equal to any
+   enemy ships in the area, you will be able to see them.
+
+   If and enemy ships cloaking device technology is greater than your
+   sensors technology, you will not be able to see them but the computer
+   will report that there is an ion trail in the area.
+
+Cloaking devices . . . . . . . . . . . . . . . . . . . . . 02.01.03.01.09
+
+   See "sensor device", (02.01.03.01.08).
+
+Torpedoes . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.03.01.10
+
+   You usually fill your ship with the maximum number of torpedoes and
+   never sell them. You may sell them, but you don't want to get caught
+   in a fight without them.
+
+   They are used to attack and defend in battle. The strength of the
+   hit value is determined by distance.
+
+Attack sleds . . . . . . . . . . . . . . . . . . . . . . . 02.01.03.01.11
+
+   Attack sleds are used to defend areas of space.
+
+How do you buy?  . . . . . . . . . . . . . . . . . . . . . 02.01.03.02.00
+
+   You check to see if you have enough cash by performing a "INFO"
+   command after docking with a planet. This will tell you the cost of
+   all the items.
+
+   A "STAT" command will tell you how much cash you have. If you wanted
+   to spend all of your money on power and don't want to compute how many
+   units you can buy, you could make your buy a string command that looks
+   something like this:
+
+   b11000;rpt30
+
+   This will buy 1000 units of power 30 times. If you run out of cash
+   anywhere in this loop, you will be told "not enough credits" to buy
+   the item. This will continue until the count of 30 is reached or you
+   MAY HIT THE ESC key on your computer to cause the immediate termination
+   of the repeat clause.
+
+   If you are able to buy the 30000 units of power without exceeding the
+   credits you have, then you can simply issue an "A" for "again" and
+   you will then cause the re-execution of the previous command.
+
+BASE . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.04.00.00
+
+   A base is useful for keeping things. Discover its uses. When your
+   ship gets destroyed, your base will remain behind, allowing you to get
+   back in when your ship is recreated, (in a crippled condition).
+
+   In addition, if you are docked with your base and someone attacks you,
+   the attacking ship must go through your base first to get to you.
+
+Building a base  . . . . . . . . . . . . . . . . . . . . . 02.01.04.01.00
+
+   You may build a base simply by warping to the location that you want
+   the base and requesting the "BASE" command.
+
+   The base will be built and you will be given a menu describing the
+   ability to move items from your ship to your base, from your base to
+   the ship; you may disassemble the base or move it if you wish.
+
+Move supplies from ship to base  . . . . . . . . . . . . . 02.01.04.02.00
+
+   You can move power, cargo, crew, and cloaking devices to your base.
+   There is no limit to the amount of items moved from ship to base.
+
+Move supplies from base to ship  . . . . . . . . . . . . . 02.01.04.03.00
+
+   You can move things from your base to your ship. There are limits
+   to what your ship can hold, remember, so if you exceed the maximum
+   allowable space for cargo, it will be spaced.
+
+   If you exceed the maximum number of crew members, they will be
+   spaced as well in their underwear.
+
+Dissassemblement of base . . . . . . . . . . . . . . . . . 02.01.04.04.00
+
+   You can disassemble the base so you may move it elsewhere if you wish.
+   Keep in mind that your ship may not be able to contains everything in
+   your base.
+
+Repairing a damaged base . . . . . . . . . . . . . . . . . 02.01.04.05.00
+
+   If an enemy fires at your base after its shields were lowered, damage
+   will have occurred. If the attacking ship did _not_ destroy it, you will
+   need to either repair it or disassemble it and rebuild again.
+
+   If you chose to repair it, you will need to pay the repair crew.
+
+BOARD  . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.05.00.00
+
+   You may board an enemy ship or base. To do so, the ship or base must have
+   had its shields lowered. You do this in a non-gentle manor by blasting
+   away at it until it can't take no more.
+
+   If you board a ship, the resistance you may encounter is practically
+   non existent. They have taken a beating and will not fight as you swing
+   aboard and dispatch any remaining survivors.
+
+   Swinging aboard an enemy base, however, is a different story. The base
+   is heavily insulated from torpedo attack and the crew, if any, will be
+   more than willing to resist.
+
+   In order to board an enemy base, you MUST have more crew members than the
+   enemy base for your boarding party to win. Otherwise, your boarding crew
+   will come back minus a lot of people.
+
+   Simply remove the ship or bases shield and warp onto it. Then type "BOARD".
+
+   There is another way you may board a base however it is for friendly
+   refueling. To do this, you must make an alliance, (PEACE command), with a
+   ships captain. That captain will need to make an alliance with you. You
+   should agree in this either through subspace mail or if you ever happen
+   to see the captain.
+
+   When you have a mutual alliance, you may board each others bases without
+   needing to remove the shields. When you type "BOARD", you will be given
+   10% of everything on board. Every time you type BOARD. If you start to
+   exceed what the owner of the base expects, or if you take it ALL, then
+   that captain is more than justified to seek you out and destroy you!
+
+   If you want to see who of your friends boarded your base, STAT will
+   tell you the last person to off-load supplies from your base.
+
+COMETS . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.06.00.00
+
+   Why not? The COMETS command will show you the location of the various
+   comets that have been seen and reported throughout the universe. You
+   will also be given the location of the heart of an ion field.
+
+   If you ever see a comet, you are given a chance to name it. What fun!
+   Anyway, a comet will show up when using SCAN as either O--- or as
+   ---O.
+
+COMMAND  . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.07.00.00
+
+   You are allowed to maintain a command file that helps to automate your
+   ship while you are away. This aspect of Universal Mayhem is the
+   primary reason for development of the C version over the older and less-
+   capable BASIC version.
+
+   In the command file you may maintain, you tell Universal Mayhem how to
+   defend your ship and friends, and what to do about your enemies while
+   you are not active. In addition, you also tell Universal Mayhem how to
+   deal with battle conditions; when to bail-out of a fight.
+
+ATTACK . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.07.01.00
+
+   If you wish, you may attack ships as soon as they sign in. This is
+   somewhat of a difficult stance to take unless you are almost certain
+   to win. There is a problem, of course, in that the active captain has
+   the ability to refuel and rebuild in real time while your ship is not
+   controlled with any real intelligence, (it can not warp onto a planet,
+   dock, and buy power to fight with).
+
+   Simply tell the Universal Mayhem program who to attack when they sign
+   in. The "COMMAND" statement will list those ships that you currently
+   want to attack and will ask you if you want to:
+
+   o Add ships to the list of ships to attack
+
+   o Remove an existing ship to attack from the command file
+
+   o Quit back to Universal Mayhem prompt
+
+   o Save the attack entries and move on to the DEFEND section
+
+   It's important to note that you may specify "ALL" as the name of the
+   ship to attack. When you do this, any ship that signs in will be
+   attacked by your ship. This is useful when you are just looking for
+   a fight to pick.
+
+   When your ships command file is scanned after an enemy ship logs in,
+   a block of data in RAM is set aside that is used in an interesting
+   manor. Read "Other Information", (Appendages 00).
+
+   When a ship is commanded to ATTACK the currently active ship, the warp
+   drive capability is divided by four, making the attacking ship much
+   slower, possibly, than the active ship. This is done for a reason.
+
+   It seems that if ships gang up on a certain ship; all of them talk
+   among themselves to rid the universe of a particular problem; the ship
+   trying to defend itself is not able to get away from the pack. By
+   dropping all ATTACKing ships warp capability, the active ship has a
+   chance to run very fast in a direction and attempt to commerce before
+   the enemy ships catch up.
+
+Swarm attacks/defense . . . . . .  . . . . . . . . . . . . 02.01.07.01.01
+
+   If your ship is automated to warp into an area to attack or assist
+   a ship, or if it comes in to assist your base, attack sleds which are
+   in the area will attack your automated ship unless you have a mutual
+   alliance.
+
+   Let's say that you decided to attack "DUCK" whenever it signs in. Let's
+   also say that DUCK is currently near his base where there are two
+   planets DUCK uses for commerce.
+
+   DUCK, being a smart captain, has created five attack swarms, one at
+   each planet and three around the base. Your ship, when it catches up
+   with DUCK; say in a commerce loop, will start to attack it. DUCKs swarms,
+   however, will start to defend and fire back at your automated ship.
+  
+   If placed properly, DUCKs sleds will fight you at every de-warp station
+   in the commerce loop, allowing DUCK to _perhaps_ retain a commerce loop
+   without needing to run for it. When his sleds run out of power, however,
+   your attacking ship will be allowed to battle DUCKs ship and base.
+
+DEFEND . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.07.02.00
+
+   Defend does not work. It's a bummer because it was supposed to allow
+   your ship to warp into a battle and defend a ship if it gets attacked
+   by the active ship.
+
+   I can implement this aspect of Universal Mayhem, and I would really
+   like to hear about it, by allocating another block of memory, actually
+   an array, which would contain a matrix of those ships which wish to
+   defend which ships. Actually, more I think about it, a linked list
+   would take less space.
+
+   The only problem with this is the memory would hardly ever be used
+   to place the code in Universal Mayhem.
+
+   --- Version 1.30 note:
+
+   This _does_ work now though in a manor in which you may not like. If you
+   say "defend" a ship, what will happen is this:
+
+   If the ships you have a defend declarative outstanding for attacks
+   anyone, your ship will attack the ship in your defend declarative,
+   (which is the currently active ship).
+
+ASSIST . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.07.03.00
+
+   When you assist a captain, your ship will warp into a battle and
+   start firing on the same ship that the active ship is attacking. I
+   should word this better:
+
+   If you tell Universal Mayhem to assist ship BARF, then any ship that
+   BARF attacks will also be attacked by your ship. Keep in mind that
+   your ship will also be attacked by the ship BARF if attacking.
+
+   "ALL" will work if you want to assist everyone!
+
+   --- Version 1.30 Note:
+
+   Previous versions of this command declarative did not work. That was
+   because I never really coded it. I forgot and simply put in some
+   stubs for this routine; stubs that causes duplication of ships and
+   removal of ships. Quite stupid. I could say that it was an oversight
+   because of the complexity of the problem but that would be misleading.
+
+   Now, if your ship assists the active ship in its fight, your ship can
+   destroy the ship the active ship is destroying and take the prize from
+   it! You can get all the planets the ship had and all the slaver death
+   weapon parts it had, (if any).
+
+   If your ship destroys a ship while assisting, your ship gets credited
+   will the kill.
+
+   Of course, if the ship the active ship attacks destroys you because
+   you assisted the active ship, the ship that destroys you gets all
+   of your planets, slaver death parts, and credit for the kill.
+
+RUN-FROM . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.07.04.00
+
+   If you want to have your ship run from a particular ship or "ALL",
+   you may do so. The way this works is your ship will warp away from
+   its location if an enemy ship gets too close.
+
+   --- Version 1.30 Note: (Was initially released un-documented Vers. 1.20).
+
+   The top three ships in the standings listing will have the run-from
+   declarative suspended. This means that if your ship has a run-from
+   command in it, your ship will _not_ run from anyone if your ship is
+   one of the top three ships.
+
+BAIL-OUT . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.07.05.00
+
+   If your ship is engaged in a battle, you may cause your ship to run
+   away and attempt to hide by specifying various BAIL-OUT parameters.
+   When your ship bails out, it will warp in a single direction for a
+   random number of jumps at maximum warp.
+
+   If your ship is found after bailing out, its no longer controlled by
+   the command files and are subject to returning fire capabilities.
+
+On Power . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.07.05.01
+
+   You may bail out when your ships engines available power drops below
+   a certain value. Keep in mind that your ship is going to need power
+   to run on if it must bail out.
+
+On Torpedo . . . . . . . . . . . . . . . . . . . . . . . . 02.01.07.05.02
+
+   You may bail-out when your ships torpedoes run out. Keep in mind that
+   if your ship is found again, it's going to need to try to defend
+   itself.
+
+On Time Remaining  . . . . . . . . . . . . . . . . . . . . 02.01.07.05.03
+
+   If the amount of time left for the player is about to become too low,
+   such as perhaps five minutes left, you can bail out. This is useful
+   when you want to do battle but don't want to be around when the enemy
+   captain signs in only to find you sitting off his starboard side.
+
+On Damage Received . . . . . . . . . . . . . . . . . . . . 02.01.07.05.04
+
+   Your ship can perform a bail-out whenever it receives damage. At the
+   first sign of damage, your ship will attempt to run from the attacking
+   ship. You can only hope that the aggressor will not be able to find
+   you again.
+
+Decoy .. . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.07.05.05
+
+   One interesting aspect of Universal Mayhems COMMAND files is the
+   ability to drop a decoy shuttle before a bail out. This is done by
+   specifying a class shuttle to drop just before running.
+
+   On the sensor scan, the shuttle will return a scan that looks just
+   like your ship. When the attacking ship fires at it with torpedoes, it
+   will simulate strikes and damage indications making it appear as
+   though your ship is still in the area.
+
+   Depending on the class shuttle used as a decoy, the shuttle will slowly
+   or quickly fall apart, showing the attacking ship that you have made a
+   run for it and are now sitting somewhere trying to hide.
+
+PHASER . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.07.05.06
+
+   --- Version 1.50 Notes:
+
+   You can now tell how much power to use (up to this value) when your
+   ship fires phasers. This value must be from 1000 up to the amount your
+   ship has at the time you implement the command directive.
+
+   If, during battle, your power drops below this value, the command
+   file directive will revert to using half of your available power.
+
+DEFAULT fight  . . . . . . . . . . . . . . . . . . . . . . 02.01.07.05.07
+
+   --- Version 1.50 Notes:
+
+   Suppose an enemy ship walks up to your ship and fires a shot or two.
+   Sure, your ship fires some shots of its own, testing to see if the
+   enemy ship wants a protracted engagement.
+
+   Let's say that the enemy ship finds you distasteful; too much power,
+   couldn't possible win. The enemy warps away, quickly least your ship
+   notices.
+
+   Don't that make you angry? Like to kick his ass some?
+
+   The "DEFAULT FIGHT" command file directive has been added that will
+   be appended to your ships automation commands in that if an enemy
+   ship fires at you, your 'ATTACK' directive will apply to it as well
+   as any existing ATTACK directives.
+
+   If some ship comes up to yours and fires a shot. If it leaves the
+   area, your ship will follow. Of course your BAIL-OUT directives will
+   remain in full force so you can limit the engagement as you desire.
+   If the enemy ship wants out of the fight, it will either need to
+   keep one step ahead of you, or sign out and call back at another
+   time.
+
+   Kevin Higgins (1:128/74.0) thought this one up. Thanks.
+
+Command file summary . . . . . . . . . . . . . . . . . . . 02.01.07.06.00
+
+   --- Version 1.30 Note: (Additional documentation only, not new feature).
+
+   Assist:
+      Fire on the same ship the active ship is killing.
+
+   Defend:
+      If the currently active ship fires on _anyone_ defend the ship the
+      currently active ship is killing by torpedoing the active ship.
+
+   Attack:
+      Warp to the area the active ship is and fire on it.
+
+   Run-From:
+      Power:
+         When power falls below this value.
+
+      Torpedo:
+         When the ship has less than this number of torpedoes left.
+
+      Time remaining:
+         When the active player has less than this number of minutes.
+
+      Damage:
+         When your ship received damage in a fight.
+
+      Decoy:
+         Leave a decoy with offer shuttle class.
+
+   Phaser:
+      Tells your command file the amount of phaser power to use.
+
+   Default:
+      Instructs the automation to continue the attack engagement.
+
+DESTRUCT . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.08.00.00
+
+   Well, if you are attacked, boarded, and left to drift, you may have
+   no choice but to self destruct. You _could_ ask a friend to come and
+   destroy you, but that would not be dignified.
+
+   When you self destruct, you do have a possibility of taking out a few
+   of them with you. If there are ships in the area when you self destruct,
+   they may be damaged or even destroyed, depending on the shield values.
+
+   If your ship is sitting on another, the proximity will cause the
+   destruction of that ship regardless of its shielding.
+
+   There are some other interesting side effects of self destruct that I
+   will leave up to the casual player to discover.
+
+   --- Version 1.00 Notes:
+
+   If you destroy yourself, or are destroyed by an automated ship, for
+   that matter, (or are stupid enough to wander into several stars), any
+   slaver death weapon parts you may have found or captured are strewn
+   throughout space.
+
+FIND . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.09.00.00
+
+   The FIND command will locate any planets that may be within sensor
+   range. The location and warp directions are offered.
+
+   In addition, the closest planets warp directions are passed to the
+   "GO" command, (See the GO command for additional information).
+
+FIRE . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.10.00.00
+
+   The FIRE command lets you fire phasers. You offer the FIRE and then the
+   number of energy units to fire all on one line without hitting enter
+   between the FIRE and the value:
+
+   fire 20000
+
+   will fire 20000 units of energy.
+
+   The power is distributed among any ships and/or bases in the area and
+   there is some degradation to the power through distance.
+
+   Something that a lot of people don't like:
+
+   If you use phasers on a ship that is significantly weaker than yours,
+   the Galactic Police will come in and sit off your ships side. This is
+   so that if you continue to use phasers on a weak ship, the cops will
+   start to fire at you.
+
+   This was done so that weak ships just starting out would have a
+   chance. There is no reason why you can't use torpedoes to send the new
+   ships to hell.
+
+   --- Version 1.00 Notes:
+
+   When you fire on an automated ship, either automated through command
+   files or by just "being" their, they now fire back. Mayhem didn't
+   used to have ships fight back when you hit them with phasers. I don't
+   know why I didn't code it, it's just common sense that people would
+   elect to fight back regardless of what people are hitting them with.
+
+GO . . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.11.00.00
+
+   Go is used with the FIND command; you can't GO before you FIND.
+
+   The GO command will feed the location of the closest planet located with
+   the FIND command to the warp drives and cause your ship to warp to that
+   planet and dock.
+
+   It's interesting to note that if your warp drive isn't capable of
+   attaining the voyage in two jumps, the computer will cut the jumps into
+   manageable parts. Good navigation is worth billions in defense
+   spending...
+
+HELP . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.12.00.00
+
+   The HELP command will give you a one-screen list of the possible
+   commands. In addition and perhaps more importantly, it also tells you
+   the "extended help" numbers, (see the HLP command).
+
+HLP  . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.12.01.00
+
+   You may acquire on-line help for all of the Universal Mayhem commands
+   by obtaining an extended help number from the HELP screen. Next to
+   each of the commands is a number for the HLP command.
+
+   If you want help, simply enter HLPnn where nn is the extended help
+   item number and you will be given any amount of help that exists in the
+   on-line help file.
+
+   It's interesting to note that I have made the help file SHIP.HLP
+   available for being edited by the system operators such that they may
+   elect to add to the help, (and correct my spelling).
+
+INFO . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.13.00.00
+
+   Tells you the cost of the various items available for buying and
+   selling on a planet. Before you may ask for INFO, however, you
+   must dock with the planet.
+
+   In addition to the cost of things, INFO also tells you the technology
+   level of the planet.
+
+LEAVE  . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.14.00.00
+
+   After being in space for awhile, the crew needs leave. If they don't
+   get it, they will start to mess up.
+
+   When you dock with a planet, you may request leave, bringing morale
+   back to 100%, (morale drops the longer you remain in space).
+
+   As with most interstellar ports, there are certain social problems of
+   a viral nature which may crop up among the crew. To put it nicely, they
+   may pick up something they can't get rid of.
+
+   In addition to the clapp, some captains may seed planets with plague
+   which will infect your crew after some unknown incubation period.
+   You can usually land at a somewhat safe planet by seeing if it has been
+   visited before. If not, you will probably avoid the plague if you
+   decide to issue shore leave.
+
+   There are some other interesting things about LEAVE that I don't like
+   to talk about. You may run into them after awhile.
+
+LONG . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.15.00.00
+
+   The LONG command will cast a long range scan for a specified ship.
+
+   The direction, though not the distance, of the enemy ship is offered
+   and experience has shown that it's not all the accurate.
+
+   The LONG will return a direction until you get within sensor scan
+   range of the enemy ship which will detect you and turn its
+   transponder off, (contrary to Galactic Police requirements for safe
+   interspacial transportation standards).
+
+   When the transponder is turned off, you know you are close but you
+   will need to search. I will leave it up to you to determine what the
+   best method is for finding enemy ships using LONG.
+
+MSG  . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.16.00.00
+
+   You may send messages and receive messages from the enemy ships and your
+   alliance ships through the subspace mail command.
+
+   After some comments made by Mike Phillips, (231/80), it was determined
+   that subspace mail should be enabled or disabled by the System Operator.
+   This is because some BBS systems may not support Fido/Opus type mail
+   file formats. As Universal Mayhem resumes its development, perhaps these
+   formats will be added but for now, if mail is not allowed, you will get
+   a message saying you can't send mail.
+
+Reading your subspace mail . . . . . . . . . . . . . . . . 02.01.16.01.00
+
+   When you request STAT, you will be told what mail you have waiting.
+   In order to read your mail, however, you must return to the BBS software
+   to the echo mail area described something like "Universal Mayhem
+   Subspace Mail".
+
+   If mail is not allowed, you will not see any message informing you of
+   mail pending.
+
+Sending subspace mail  . . . . . . . . . . . . . . . . . . 02.01.16.02.00
+
+   When you enter MSG, you will be asked for the ship to send mail to.
+   You may enter the four-letter ship name or "ALL" to send a general
+   subspace message to all players.
+
+   A SUBJECT is entered and then the text of your message.
+
+   MESSAGE ENTRY will NOT wrap around.
+
+   After the message is entered, you are asked if you want to (S)ave the
+   message, (C)ontinue entering the message, or (A)bort the message
+   entry.
+
+   If subspace mail has been turned off, the MSG command will not work.
+   If this is the case, then you will need to use the BBS system that
+   calls Universal Mayhem in order to send messages back and forth 
+   between players.
+
+   --- Version 1.50 Note:
+
+   If you are running Universal Mayhem and are not on the modem, (that is
+   to say, you are running the game remotely), then there is an additional
+   command other than Save, Continue, and Abort. This command is the
+   Read-In command.
+
+   You won't see the read-in prompt but if you select 'R' as the command
+   to perform, then you will be asked for the name of a file to read. The
+   contents of the file will be read into the subspace message and then
+   you are asked if you wish to Save, Continue, or Abort. Of course, you
+   can then request 'R'ead-in again to read in another file.
+
+   This command is intended to be used by SysOps only. Indeed, players
+   who dial up; if they request 'R', they will not be given the ability
+   to read-in a file.
+
+NAME . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.17.00.00
+
+   When you dock at a planet that has not been named, you may name it.
+
+   There is, however, the possibility that the System Operator configured
+   Universal Mayhem without planet names. The loss of this feature, which
+   didn't do much anyway, saves some 16 bytes of hard disk space for
+   every planet. With 40,000 planets, (as was in the default configuration
+   size of the universe), that's 640,000 bytes; half a meg.
+
+   It seems that BB Systems are _always_ looking for more disk space so
+   this feature may have been disabled. If this is the case, the NAME
+   command will inform you that the planet may not be named.
+
+NAMES  . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.18.00.00
+
+   Want to see who owns what ship? This command will do it. It will also
+   tell you what ships have been impounded and are available for auction
+   and it will also tell you who has bid on what ships.
+
+   If you have bid on a ship and someone else has, you may have to destroy
+   that persons ship to invalidate the opposing bids. Anything for money!
+
+   If the naming of planets is allowed by the SysOp, you will also see
+   how many planets have been named by everyone. 'Doesn't mean anything,
+   but kind of tells you who explores.
+
+   (Actually, there comes to mind a good use for knowing how many planets
+   have been at least visited by enemy ships).
+
+   --- Version 1.50 Notes:
+
+   The NAMES command will display 'remote player' next to the name of a
+   ship if the player has been imported into the local system using the
+   'statistics feature' that is described within this manual.
+
+NAV  . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.19.00.00
+
+   The on-board computer will maintain up to three data banks containing
+   information on commerce and technology levels for planets.
+
+   To add a planet to a data bank, you must dock with the planet and then
+   request NAV. The computer will ask you if you want to add the
+   current planet to a data bank and if so, which one.
+
+   You may dump and data bank or view a data banks contents at any time.
+
+   This is useful for retaining commerce information on planets that you
+   really like without having to write their locations and values down.
+
+   If the SysOp ever creates a new universe, (yes, SysOps _ARE_ that
+   powerful), the nav data stored in your computer banks will become
+   invalid. Simply dump them if you notice that the universe has been
+   changed. A good indication of this is that the display of navigation
+   bank data on your three planets will all say they are dead.
+
+   It could very well be that someone destroyed all of your planets and
+   your nav data is correct. It's more likely, however, that the universe
+   has changed and your nav data is outdated.
+
+   One other thing that was added to the program later is the ability to
+   have the navigational computer warp you directly from your current
+   location to the nav planet you specify.
+
+   The distance is _not_ infinite and as such will only get you from your
+   current location to the specified nav planet if it can be made in
+   less than 50 jumps or so, regardless of your warp drive capacity.
+
+PASS . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.19.01.00
+
+   You can change your sign-in password simply by entering this command.
+   You will be asked to enter the old password so there is a small
+   measure of security in case you walk away from the terminal and
+   someone sneaks up to it!
+
+PEACE  . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.20.00.00
+
+   You may make up to five alliances.
+
+   There is no way to break an alliance except by attacking one of them.
+
+   Alliances give you a range of possibilities and hazards and I will leave
+   it up to you to determine exactly what they might be and what you
+   want to do with the capability.
+
+   I have seen in the BASIC version huge alliances consisting of many
+   ships captains making cross alliances and enemies; setting ship against
+   ship and remote robots as sentries reporting both enemy and friend
+   movements.
+
+   Such wanton violations of alliances I have seen!
+
+Mutual Alliances . . . . . . . . . . . . . . . . . . . . . 02.01.20.01.00
+
+   There are many good reasons for having mutual alliances. The first thing
+   that comes to mind is the ability to board an allied ship and take a
+   few things.
+
+   More importantly, however, is that attack sled swarm groups will _not_
+   attack a ship that has a mutual alliance if it warps into the area
+   where an attack group is stationed.
+
+   To make a mutual alliance, both you and the captain of the other ship
+   must declare peace with each other. Subspace mail is a good way to do this.
+
+PING . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.21.00.00
+
+   You can find out how strong a ship is by attacking it... There has GOT
+   to be a better way, one that's less damaging, and PING is it.
+
+   PING will cause a radar pulse to be sent out in an omni-directional
+   spread pattern from your ship outward through the entire area. The
+   strength of the return is determined by the strength of the ships in
+   the area.
+
+   Usually experience has shown that if there is 100 million units of
+   power in the area excluding your ships power, you will get a return of
+   around 100.
+
+   All of the ships in the area add to the strength of the return. The
+   shields around ships get their shielding capability by reflecting high
+   energy particles. The stronger the shield, the stronger the return
+   ping.
+
+PLAGUE . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.22.00.00
+
+   When you see pirates in the area and you have a lot of cash, you can
+   buy plague and seed planets with it. Anyone who visits that planet will
+   become infected, even your own ship if you ever come back.
+
+   Plague will kill a percentage of visiting ships crew after some random
+   incubation period. Though fatal to many, there will be some crew
+   left to operate the ship in most cases.
+
+   After working its way through the ship, operations will return to normal
+   unless there is a relapse.
+
+   Now seeding planets with plague is something Klingons would do. It's
+   not considered nice to seed a planet with plague and other ships may
+   group together for temporary alliances to destroy you!
+
+   There is a one-in-ten chance of a planet getting rid of the plague. The
+   chances only take place when a ship visits the planet so if one of your
+   favorite planets seems to be infected, simply visit it often and
+   eventually the plague will be removed.
+
+   Of course the cost in crew members is quite high...
+
+POWER  . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.23.00.00
+
+   Redistribute power between shields and engines.
+
+PROTECT  . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.24.00.00
+
+   You may protect a planet against being destroyed by torpedoes. This will
+   cost a lot of money but is useful when you find a couple of really
+   close commerce planets and want to keep them.
+
+   If anyone fires at a protected planet, the torp simply bounces off and
+   heads for deep space where presumably it will find its way through
+   another stellar system and onto some innocent planet that's never even
+   heard of the battles taking place billions of light years away.
+
+   I have noticed that if the SysOp creates a new universe over the old
+   one, the planets you may have protected are lost forever. If you spend
+   a lot of money, then, you will have lost it all.
+
+   --- Version 1.00 Note:
+
+   The standings have been re-thought since the older version. Now, the
+   player with the most planets owned are listed as the number one
+   players. 
+
+   See 'TAXES' to see how being a property owner assists you in your
+   financial status.
+
+   There is an interesting side effect to owning planets. You may own
+   one hundred of them but I noticed that you can find a way to own
+   up to 400 of them. This is a bug that I know about but elected to
+   keep in and in fact, re-coded to allow its continued existence.
+
+   Listen up:
+
+   Let's say that you have protected 100 planets. This is the limit that
+   was originally coded into the Mayhem project. Let's suppose that one
+   of those planets is at 1211-8769. If you try to buy another planet
+   you are told that you can't.
+
+   The way you can buy an additional three hundred planets is to take
+   the X-Coordinate 1211 and search from the Y-Coordinate 8769 to the
+   left until you find another planet. You will be allowed to protect
+   that one and all others you can find. The same goes for those planets
+   that are on the same X-Coordinate along the right hand side of the
+   Y-Coordinate.
+
+   The reason was simple: The locations of four planets are known for
+   each X-Coordinate. When you are at location 1211-8769, Mayhem will
+   read record number 1211 from the UNIVERSE.DAT file and search 
+   through the four Y-Coordinate positions for planets. If any of them
+   are found to be 8769, Mayhem knows you are docked at a planet.
+
+   When protecting a planet, the players data file retains only the
+   X-Coordinate location of the planet. It then reads the PLANETS.DAT
+   file for the planets data structures of which their are four of them
+   and sees if the planet is protected. You can protect all four in
+   the same UNIVERSE.DAT record and have MAYHEM plug all four data
+   records in PLANETS.DAT.
+
+   --- Version 1.00 Note:
+
+   When you destroy a ship, you gain ownership of all of its planets.
+   You are not informed of where those planets are, however. If you
+   do find one, or want to un-protect one you have protected, you need
+   only dock with it and type 'PROTECT'. Because it's protected by
+   you, you can un-protect it for some 10 percent of it's original
+   value.
+
+QUIT . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.25.00.00
+
+   When you have to get back to work, the QUIT, and in fact, the EXIT
+   command, will engage the command file automation computers, (if you have
+   left one designed), to fight for you, and you are transported off
+   ship to some unknown reality, (at least so far as Universal Mayhem is
+   concerned).
+
+   You will usually be returned to the BBS software that shelled out to
+   Universal Mayhem, where you may continue to FidoNet!
+
+   SysOps may configure their system to do other things with you,
+   however, as I supply them with an ERRORLEVEL that they may use to
+   tighten their systems operations. A listing of the ERRORLEVELS that
+   I offer and a description is offered.
+
+REM  . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.26.00.00
+
+   You may buy and maintain up to four remote robot sensors. These are
+   quite useful bits of technology that you can do a lot with.
+
+Scanning from Remote . . . . . . . . . . . . . . . . . . . 02.01.26.01.00
+
+   If you have a remote deployed at some location, say remote number 2,
+   you may request a sensor scan from it:
+
+   rem2 [return]
+
+   will perform a sensor scan as though you were at that location. Your
+   remote will show up in the center of the sensor screen rather than your
+   ship.
+
+   This is useful for keeping on eye on your base to see if there are
+   any ships in the area while you are on the other side of the universe.
+
+Deploying a Remote . . . . . . . . . . . . . . . . . . . . 02.01.26.02.00
+
+   To deploy a remote, such as remote 3, at the current location:
+
+   rem3p
+
+   If you warp off a few sectors and perform a sensor scan, you will see
+   <RR> off a little where you were before you warp off a little.
+
+Recalling a Remote . . . . . . . . . . . . . . . . . . . . 02.01.26.03.00
+
+   You may pick up a remote by warping onto it and performing something
+   like this, (This example will pick up remote 0):
+
+   rem0r
+
+   This will cause the recall of remote 0. When you back off a few sectors
+   and perform a sensor scan, you will see that the remote is now on board
+   and ready to be deployed somewhere else or sold.
+
+RPT  . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.27.00.00
+
+   The RPT command is the LAST thing on a command string. It will cause
+   the re-execution of a string of commands. Something like this
+
+   b1100;w44;s1100;s1100;w64;rpt30
+
+   This command string will see 100 units of cargo, warp direction 4 for
+   four sectors, sell 100 units of cargo, warp direction 6 four sectors,
+   and do it all again 30 times.
+
+   The highest number of RPT iterations is 30, the smallest is 1.
+
+   If you need to terminate a repeat, hit ESCape on the keyboard.
+
+S (Sell) . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.28.00.00
+
+   This command allows you to sell things. See "B" for buy to see how
+   things are sold.
+
+SCAN . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.29.00.00
+
+   The scan command will allow you to take a look at the surrounding area.
+   The result of the scan is a half-screen of ascii-graphic type data. The
+   various elements of the scan that you may see are:
+
+   SHIP - Any upper case four-letter word is a ship. Yours is always center
+   ship - Any lower case four-letter word is a base.
+   <RR> - Remote robot sensor
+   @@@@ - Ion field
+   #### - Edge of the universe
+   <00> - A planet
+   <**> - A star
+   <%%> - A triten mine
+   <  > - A black hole. May have a white hole somewhere
+    .   - An attack swarm
+   <GP> - The Galactic Police attack ship
+   O--- - A comet in clockwise orbit about a star
+   ---O - A comet in counterclockwise orbit about a star
+   <OX> - A pirate ship
+   #nn# - A goal item, (the nn represents a number from 00 to 09)
+   <-n- - A scout ship (number n) is inbound
+   -n-> - A scout ship (number n) is outbound
+   <>-n - A scout ship (number n) is on station
+ 
+   If you scan a comet and are the first to do so, you are allowed to name
+   the comet anything you wish. The names of the comets are available, as
+   well as a list of those that have been found, through the 'COMETS' command.
+
+   Because enemy ships can become cloaked, your sensor array technology must
+   be higher or equal to the cloaked ship before the cloaked ship will
+   appear on the sensor scan. If the sensor scan can not see an enemy ship
+   but one is in the area, "Sensors report an ion trail in this area..." is
+   offered to let you know its around.
+
+   The borders of the sensor scan show the positions of the various objects.
+   Your ship is always center-screen unless you are pulling a scan from one
+   of your remote robot sensors in which case <RR> will appear in the center
+   of the sensor scan.
+
+Ships  . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.29.01.00
+
+   You may attack, board, and destroy ships. Every time you do so, you
+   will be credited with the kill and reported in the standings.
+
+Bases  . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.29.02.00
+
+   You may attack, board, and destroy bases. The crew on board the
+   enemy base will fight back to the crewman unless you have a mutual
+   alliance with the captain of the base.
+
+   To destroy the base, you must lower its shields and fire at least
+   an additional 10 torpedoes at it. You may leave it damaged if you want
+   in which case the captain must pay to have it repaired.
+
+Remote robot sensors . . . . . . . . . . . . . . . . . . . 02.01.29.03.00
+
+   Remote robot sensors may be destroyed. You should never attempt to
+   land on one that isn't yours as it might attach itself to you.
+
+Attack sled swarms . . . . . . . . . . . . . . . . . . . . 02.01.29.04.00
+
+   Attack sleds are dangerous. You should try to avoid them unless they
+   belong to you.
+
+   Usually left behind to defend a base or star system, they will attack
+   you move for move with great strength.
+
+   As you fire into their formation, you may or may not damage them.
+
+Stars, planets, mines, black holes . . . . . . . . . . . . 02.01.29.05.00
+
+   Don't fire or land on a star or mine as they will cause damage.
+
+   You may fire at or warp through a black hole. Some of the holes have
+   corresponding white holes which will come out at a specific place in
+   the universe next to another black hole. If so, simply entering the
+   black hole you came out of will return you to the original area of
+   space.
+
+Galactic Police  . . . . . . . . . . . . . . . . . . . . . 02.01.29.06.00
+
+   Never fire at a cop.
+
+   --- Version 1.00 Notes:
+
+   When you pay taxes, the cops take the money and buy things. Normally,
+   they start buying power, hull patches, torpedoes, and the like. When
+   they have all they need, they start hoarding the cash.
+
+   --- Version 1.00 Notes:
+
+   The cops will move around at times.
+
+   --- Version 1.50 Notes:
+
+   If you destroy a cop, then its command file will be activated with
+   orders to kill you. If you kill _that_ cop, another will replace it.
+
+   You will, in fact, be hounded for quite a long time. It wont even
+   end when you are destroyed as if you create another ship with the
+   same name, it too will be hounded.
+
+   It will only end when someone else destroys the cops.
+
+Ion storms   . . . . . . . . . . . . . . . . . . . . . . . 02.01.29.07.00
+
+   You can attempt to hide in an ion storm. Human captains may or may
+   not be able to find your ship if you are in the ion field.
+
+   The ion fields center is a hypergravitational source which signularity
+   never changes; the center is always the center and never moves. The
+   field around the center, however, will move, grow, and shrink.
+
+Comets   . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.29.08.00
+
+   There are comets in the universe. Why not?
+
+   If you run into one, (stupid thing to do, really; watch where you're
+   going, why don't you!?), you get destroyed.
+
+   If you scan a comet that hasn't been scanned before, you are given
+   the ability to name the comet. When the COMETS command is entered,
+   the locations of and the names of the comets are given.
+
+   One additional thing that COMETS tells you is the central location of
+   the ion storm. Every universe has one.
+
+Pirates  . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.29.09.00
+
+   You can buy plague from pirates if you have the cash.
+
+   Pirates usually warp in and out of your area quickly so if you want to
+   do business with them, you must do so quickly.
+
+   --- Version 1.00 Notes:
+
+   Pirates fight back...
+
+   They have waited around for awhile... They know you have money... Why
+   don't you buy from them? After awhile, they get a little tired of this
+   treatment and attack you. Sorry, tough universe.
+
+   --- Version 1.41 Notes:
+
+   It works now, the pirates will really fight back. You have a good chance
+   of killing them with the first shot as they typically wish to trade with
+   you and are expecting peace! If you kill them, you gain a cool reward.
+
+   If you fail to kill them, however, they can destroy your ship! Be
+   careful when you say war to a pirate!
+
+   --- Version 1.41 Notes:
+
+   There are good pirates, and then there are bad pirates. Bad pirates will
+   "slash and run" your ship on occasion. Most bad pirates are chicken at
+   heart and will warp in, fire on you, and head out at high warp.
+
+   Though you can't do anything about the bad pirates, you could always find
+   some good pirates and kill them for their brothers! That'll teach 'em!
+
+   If you have a plague class 10 or better, then rouge pirate will not
+   fire on your ship.
+
+   --- Version 1.50 Notes:
+
+   It's harder to destroy a pirate ship and phasers will work now. If you
+   are able to destroy one, you get credit for the kill.
+
+Goal Items . . . . . . . . . . . . . . . . . . . . . . . . 02.01.29.10.00
+
+   --- Version 1.00 Notes:
+
+   A MAJOR update to Universal Mayhem is the addition of what I call
+   "Goal Items". It's actually quite interesting...
+
+   Strewn through out the universe, there are ten parts to the ultimate
+   weapon. The "Slaver Death Weapon" was broken up and distributed
+   through out time and space many millions of years ago and the people
+   of the universe back then vowed never to let it be reassembled.
+
+   Of course, your goal is to do just that... The parts you need to
+   find are:
+
+      dual frequency bipolar power pack
+      semitransparent liquid teramodulator
+      spherical wave guide director
+      magnetic field grip
+      fully integrated infrared site
+      monodirectional bounce/return auditator
+      status/display information screen
+      back-blast heat shield
+      self deploying and locking mounting grid
+      auto breach extending muzzle distender
+
+   Other ships will have some items, perhaps; the rest are floating in
+   space. There is an additional command "BOUNTY" that displays the ships
+   which have the parts listed above.
+
+   Once you have all of the parts, you have an additional command 
+   available to you called "TRIGGER" which will trigger the device.
+
+   --- Version 1.40 Notes:
+
+   In the multi-universe version of Mayhem, (Version 1.4 and greater),
+   the slaver death weapon parts are distributed throughout UNIVERSE
+   0, (which is the default universe). This limiting of the scope
+   of the search was performed because the search times would start
+   to exceed the useful life-time of the Sun.
+
+   By moving the Earth back a few A.U. we might have enough time during
+   the red giant stage but I hardly think this program will be used
+   in many systems at that time.
+
+SLED . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.30.00.00
+
+   Attack sleds are small one-crewman attack ships that are placed into
+   groups or swarms. You may maintain up to five swarms, with any number
+   of sled ships in them.
+
+   Usually left behind near your base to help protect it, they can also be
+   left near comfortable commerce planets.
+
+   If you warp into an area of space which has enemy sleds, you will be
+   attacked by them. You can fight back, of course.
+
+   You may deploy or recall attack sleds by warping onto the swarm center
+   or the area of space you want the swarm and selecting command SLED.
+
+   Attack swarms must be refueled from time to time. To do so, you can
+   either recall and re-deploy the sleds, or you can simply warp on top of
+   a swarm and deploy one more sled. This sled will refuel every sled in the
+   swarm.
+
+   If your attack sleds run out of fuel, they will drop into space and
+   turn very cold. So cold, in fact, the crewmen will be deep frozen and
+   you'll never be able to find them.
+
+   ---> These sleds will attack anyone who warps into their station space
+   unless your ship has a mutual alliance with the ship warping in.
+
+   If you have declared peace with a ship and that ship has declared
+   peace with you, your attack sleds will _not_ attack that ship.
+
+   One thing I noticed during the extensive Alpha testing phase: When you
+   have an alliance with a ship and fire at its swarms, the alliance is
+   not broken if the swarm is destroyed. Dead men tell no tails.
+
+SPY  . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.31.00.00
+
+   You may move your remote robot sensors remotely, even if you are on the
+   other side of the universe. The command takes the remote robot number to
+   move, the direction, and the distance. The possible directions are:
+
+                                    2
+                                1       3
+                              4     5     6
+                                7       9
+                                    8
+
+                 The possible velocities are from 1 to 5.
+
+   If you move a remote on top of an enemy ship, that remote becomes attached
+   to the enemy ship and is not removable by it. Being so attached will
+   enable you to know that enemy ships location at all times and you can
+   pull a sensor scan from it, (see REM command).
+
+   It's interesting to note that an enemy ship can not see your remote so if
+   it's controlled from a COMMAND file to RUN-FROM your ship, you can use the
+   SPY command to position a remote robot sensor on top of it.
+
+STAND  . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.32.00.00
+
+   If you want to see everyone's' standings, this command will tell you the
+   top ten strongest ships, (you need at least one million units of power
+   to make the list), and the top ten killers.
+
+STAT . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.33.00.00
+
+   This command will give you the status of the ship, any base, and
+   various other things about you and your ship.
+
+   Most importantly, this command will also scan the Subspace Message
+   areas for any mail waiting for you. It will report the total number of
+   message files either read or new that is for your ship.
+
+   --- Version 1.00 Notes:
+
+   The status display also shows what parts to the slaver death weapon
+   you may have on board.
+
+T (Torpedoes) . . . . . . . . . . . . . . . . . . . . . . . 02.01.34.00.00
+
+   The torp command is how you fire at objects in space. You offer the
+   direction and the distance the torp is allowed to travel. The directions:
+
+                              1   2   3
+                            4     5     6
+                              7   8   9
+
+   You may fire at anything and anyone you wish but be sure you know that
+   people may shoot back. If you hit a mine or a star, they will blow off
+   a lot of high energy gamma radiation in your general direction and cause
+   some damage.
+
+   As the torpedo moves through space, its positional tracking radio sends
+   back information on its position to your ship. It will continue to do
+   so until the distance runs out or until it hits something.
+
+   If you fire a torpedo into an attack swarm and cause some damage, you
+   will get damage reports. The same goes for hitting un-shielded bases.
+
+   --- Version 1.00 Notes:
+
+   If you fire at a goal item, (parts of the slaver death weapon), the
+   torpedo with simply sail right through it. You don't think you can
+   destroy something that has lasted many billions of years, do you?
+
+TAXES  . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.35.00.00
+ 
+   Every time you buy something, your ships computer will add the taxes
+   required to the total. When the taxes reach some 10,000 credits, your
+   taxes are due. When you enter TAXES, the command will allow you to
+   pay the taxes due.
+
+   Note that you may pay taxes even if they are not due. If you have some
+   118 credits in taxes, you may pay them.
+
+   It's interesting to note that you don't have to pay your taxes. But
+   remember that if you don't, you will be warned twice that they are due.
+   After the second time, the Galactic Police will follow you around to
+   keep an eye on you.
+
+   After an additional two warnings, your ship will be impounded and put
+   up for auction.
+
+
+   --- Version 1.00 Note:
+
+   In version 1.00 of Universal Mayhem, taxes have been re-thought to
+   allow taxes to be paid to the owners of the planets. If you sell some
+   things on a planet that is owned by no one, then the taxes go to
+   the Galactic Police and you pay the full tax amount.
+
+   If you own the planet you sell at, then you pay just 10 percent of
+   the tax amount to the Galactic Police.
+
+   If you sell at a planet owned by another player, you pay the full
+   tax amount but the players ship gets the credits.
+
+   ACtually, all taxes that are due are stored in your ships computers
+   and you have no access to them. When it comes time to pay your taxes,
+   you request 'TAXES' and are informed of the maximum of ten planets
+   that you have taxes on and the amount you owe the cops.
+
+   IF YOU HAVE TAXES OUTSTANDING AT TEN PLANETS ALREADY and try to sell
+   at planet number eleven, you will not be allowed to do so until you
+   pay of the taxes owed at one of the ten planets.
+
+   If you own a planet that someone sells things at, your ships credits
+   will increase when they pay taxes.
+
+TIME . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.36.00.00
+
+   This command lets you know the number of minutes left to play as well
+   as the number of times you have signed in.
+
+W (Warp drive) . . . . . . . . . . . . . . . . . . . . . . 02.01.37.00.00
+
+   The warp command is how you get around in the universe. It provides a
+   method to move in any permissible direction in jumps that your warp drive
+   class will allow. The directions are:
+
+
+                                  1   2   3
+                                    \ | /
+                                4 --  5  -- 6
+                                    / | \
+                                  7   8   9
+
+
+   For the sample warp in the syntax above, this would warp the ship
+   towards direction 4, (left), five spaces.
+
+   If you warp onto a star or a mine, you will receive some damage. The ship
+   will then be blown off of the star or mine one sector.
+
+   If you warp onto a black hole, you will enter it and come out at another
+   point in the universe. Some black holes have linked white holes. This
+   can bee seen when you enter a hole and come out of the hole sitting
+   right next to another hole. Enter that hole and if you come out sitting
+   next to the first black hole, they are linked.
+
+   See command 'RPT' to see how warp commands are easily strung together.
+
+COLOR  . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.40.00.00
+
+   --- Version 1.00 Notes:
+
+   COLOR has been added! Finally! The SysOp must allow the use of colors
+   through the configuration file SHIP.CFG and you must also inform Mayhem
+   if you want colors when your ship is created.
+
+   The COLOR command will toggle colors on and off for your ship. If
+   the SysOp hasn't allowed colors, then you are told that colors aren't
+   available.
+
+   The colors that Mayhem use have been tested in many ways.
+
+   o When running Mayhem from the terminal, ANSI.SYS must be loaded.
+
+   o When running Mayhem from a dial-up modem, you should be running
+     a terminal program that has ANSI emulation. The program that has
+     been tested to destruction was PROCOMM and PROCOMM PLUS TEST DRIVE.
+
+   The Mayhem program sends everything in high intensity colors to
+   make them bright. I only have it send an escape sequence if the
+   color needs to change. This saves time when sending a screen full of
+   information in that not every screen element is preceded with a
+   color sequence. The drawback is that if you perform a screen clear
+   from your terminal emulator, the first part of the display that
+   Mayhem sends next is not going to be the color that I wanted
+   it to be. After a color change, however, Mayhem will fix it up
+   again.
+
+   QMODEM, Mirror, BitCom, PC Talk 31... These I haven't even bothered
+   to test against Mayhem. Why should I? Though I don't support the
+   Forbin project, (Yes, I'm one of those...), I can advertise for them
+   can't I?
+
+BOUNTY . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.50.00.00
+
+   --- Version 1.00 Notes:
+
+   When you destroy a planet, the Galactic Police put a price on your
+   head. When you request STAT, you can see what you're worth.
+
+   This command lets all the other players see what they are worth and
+   let's you know if anyone is worth trying to take down.
+
+   BOUNTY also has another display that you might find interesting.
+   Read about "Goal Items". This command will display the names of the
+   ships that have any of these highly fought over items. 
+
+   --- Version 1.40 Notes:
+
+   If you have a bounty on your ship, the universe your ship is in will
+   be displayed for all players to see!
+
+MAP  . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.51.00.00
+
+   --- Version 1.40 Notes:   New command
+
+   The map command will offer you a view of the multi-universe layout and
+   show you which universe you have movable items in. It will also show
+   you what universe leads to where and what corner of the current universe
+   to go to to find a gateway into the next universe.
+
+SCOUT  . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.52.00.00
+
+   --- Version 1.40 Notes:   New command
+
+   You may send scout ships out into the universes and have them report
+   on what they find.  You may send them into a specified direction,
+   towards a goal, and set it to report what it finds.
+
+   The commands are:
+
+   o r - Recall. This will pick up the scout ship. You must warp onto
+     the scout ship and then perform this command. When recalled, you
+     will receive a status report on what the scout saw.
+
+   o p - Place. This will drop the scout ship at your current location
+     and send it on its way.
+
+   o d - Destruct. This command will cause the powerful scout ship to
+     self destruct. Once a scout ship is destroyed, however, it can
+     never be replaced, even by boarding an enemy ship. The reason you
+     would want to destruct a scout ship is that you may have it sneak
+     up on an enemy ship and latch onto it with the scout ships
+     magnetic grapples before blowing its engines. It causes all kinds
+     of problems on the enemy ship.
+
+   o s - Status. This command will cause the scout ship offered to
+     give a status report. The information acquired is quite useful
+     but by asking it to report over radio, the scout ships location
+     is easily found.
+
+   o c - Clear. This command will cause the accumulated data a scout ship
+     has acquire to be cleared. It is normally done when you recall your
+     scout or when it gets to station and reports. It's not cleared
+     automatically so that you can request a report any time after you
+     recall your scout.
+
+   o f - Full. This command will offer a full report on all scout ships.
+     You are offer the scout ships location and universe, where it will
+     be going to (or coming from), if it's on its inbound, outbound, on
+     station, or stalled, and if it will stay on station or return once
+     its destination is realized. The scout ship that is marked with a
+     "*" on the left indicates that that scout ship is the next one to make
+     a move.
+
+   When a scout ship is scanned, you will see one of the following:
+
+      <-n- - A scout ship (number n) is inbound
+      -n-> - A scout ship (number n) is outbound
+      <>-n - A scout ship (number n) is on station
+
+Scout technical aspects  . . . . . . . . . . . . . . . . . 02.01.52.01.00
+
+   (Excerpt from design document)
+
+   Version 1.40 has many new aspects to it over the older version 1.30. The
+   use of scout ships increases the possibilities many fold. Use your scout
+   ships wisely as once they are gone, they are gone for good.
+
+   Speed:
+
+   When Universal Mayhem is loaded, it pulls into RAM various aspects of
+   the players data records (about the ships they run) out of the disk file
+   so that the game is able to make fast computations on automation of
+   warps without having to constantly update the disk file.
+
+   The scout ships does much the same thing. Once your ship is signed in,
+   Universal Mayhem will pull your scout ships locations and directives
+   out of the disk file and stuff the data into RAM.
+
+   In RAM, the ships will be moved symbolically to the desired destination,
+   whether it be a location somewhere distant, or back to your ship for
+   eventual recall.
+
+   Information:
+
+   The scout ships are moved one at a time, every 1 second or so of
+   accumulated keyboard wait time. They are, in fact, automated to warp slowly
+   to the destination you directed it to, collecting information along the way,
+   and then either holding on station for you to pick it up or call it in,
+   or returning automatically.
+
+   The information they acquire automatically is:
+
+      o The location and technology level of planets they come close to
+
+      o The location and "ping" level of ships and bases they come close to
+
+      o The location of remote robot sensors they come close to
+
+      o The location and strengths of attack sled swarms they come close to
+
+   This information is stored in the scout ships until you tell it to
+   clear its information. Usually, once the scout ship is recalled (brought
+   on board), you ask it to report, capturing the information on your side
+   of the phone line to a file for later viewing.
+
+   The scout ships maintain the information by creating, updating, and then
+   erasing data files on the computer. The name of the data file depends on
+   the name of your ship as it is the first four letters and the .SCT
+   extension.
+
+   These files are ASCII files consisting of one-line information phrases.
+   The first two characters of the file contains the scout ship number that
+   the entry exists for.
+
+   When, for instance, scout ship 3 is requested to report to ship DUCK, the
+   file DUCK.SCT is opened, and all entries starting with the "03" characters
+   is displayed. When, for instance, scout ship 3 is cleared upon request,
+   all entries starting with "03" are changed to start with "42", thus
+   marking them for eventual compaction or overwriting.
+
+   When a ship gets destroyed, its scout files are removed.
+
+   Automation:
+
+   Universal Mayhem keeps track of the last scout ship moved. It will walk
+   through the scout ships until all have been processed, and then start it
+   all over again. There is a time delay between each action, however, to
+   allow the ships to get their at a warp factor around 4.
+
+   There is a function in Universal Mayhem that is passed the X and Y
+   coordinates of the players SHIP, and the X and Y coordinates of the
+   scouts destination. This is true if a scout ship is on its outbound
+   leg of its journey.
+
+   When the scout ships on its inbound leg, the function is passed the X and
+   Y coordinate of the scout ship and then the X and Y coordinate of the
+   scout ships mother ship.
+
+   The function returns the direction angle of where to warp towards to
+   move an object from point to point. If the function returns "center",
+   then the two objects have met. There is a skew factor also passed to
+   the function to allow the "center" to be any number of sectors in size,
+   allowing an incoming object to come within sensor range of another and
+   then stopping just off to the side of the target, rather than ending
+   right on top of it.
+
+   Once an object is centered in an area of its destination, the function
+   contains to return "center" and the scout does not move again. If the
+   mother ship moves without recalling its scout, the function will again
+   start returning angles to the mother ship and the scout will follow.
+
+   Scanning:
+
+   The scout ships, by virtue of having warp factors of 4, will jump into
+   warp, pop out, jump back into warp, pop out, and then perform a scan of
+   the area. It will continue to do so, collecting information every time
+   it pops out of warp the second time.
+
+   The reason it doesn't collect information every time is because of the
+   low warp value and low scanning field. It takes two warps to get past
+   the last viewed boundary.
+
+   Disk Update:
+
+   Only when all 10 scout ships have been automated to some extent will the
+   players data record get updated with the new locations of the scouts. In
+   this way, re refrain from updating the disk file every 15 seconds for
+   each scout ship.
+
+   In the event of a system crash or re-boot, the last move of each scout
+   ship could become lost, but it is highly doubtful. In any event, the
+   last few moves of a scout ship (or all of them) shouldn't be cause for
+   concern.
+
+LEASH  . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.53.00.00
+
+   --- Version 1.40 Notes:   New command
+
+   You may attach a leash to an enemy ship and do with it as you will,
+   providing you and your ship has the ability to do so. The possible
+   commands that are allowed  as secondary aspects of the leash are:
+
+   o tight      - Your ship is tractored to the enemy ship for the
+                  rest of the day. If your enemy ships captain gets
+                  into the system, your ship will continue to be
+                  leashed to his ship for his play period. The leash
+                  is broken when your ship or the enemy ship bails
+                  out of a fight according to its command file
+                  directives. This means that you and the enemy ship
+                  may fight each other.
+
+   o shove      - Your ship may shove the enemy ship in any direction
+                  you choose. Its warp engines won't be able to stop
+                  your tractors unless emergency power is applied as
+                  a bail-out according to the enemy ships or your
+                  ships command file directives. You and the enemy ship
+                  may fire at each other in this configuration.
+
+   o drag       - Your ship may drag the enemy ship for a certain
+                  amount of distance until the enemy ships engines
+                  warp up to enough power to pull away from you. You
+                  may not fire at the enemy ship in this configuration
+                  but it may fire on you. You may not pull an enemy
+                  ship through a gateway.
+
+   If you simply enter "leash", you will be offered a report on the
+   current state of any leash you may have on another ship or if there
+   is one on your ship.
+
+OWN  . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.01.54.00.00
+
+   --- Version 2.3 Notes:
+
+   This command will show the player the location of the planets that are
+   owned. It's good for finding the location of the planets that a ship had
+   when it was destroyed and haned over to the winner!
+
+   When you go to a planet that is protected, you can say PROTECT again and
+   unprotect the planet to get most of the original price of the planet
+   converted into quick cash!
+
+# - Keyboard Macros  . . . . . . . . . . . . . . . . . . . 02.01.55.00.00
+
+   --- Version 2.3 Notes:
+
+   Syntax:
+
+   # [enter]
+   # [0 through 5] [enter]
+   # [0 through 5] [command string to save]
+
+   To view your Keyboard Macros, hit # and then enter.
+
+   To execute a Keyboard Macro, enter # followed by the number of the stored
+   Keyboard Macro you wish to execute.
+
+   To store and then execute a Keyboard Macro, enter # followed by a number
+   from 0 through 5 and then follow it with the command string..
+
+   Examples:
+
+
+                #0w910;w910;w910;find;go;protect;rpt30
+
+   This will save the following Keyboard Macro to Macro number 0:
+
+                w910;w910;w910;find;go;protect;rpt30
+
+   After you enter the Keyboard Macro, it will be executed. To execute the
+   Keyboard Macro again, you would type:
+
+                #0
+
+   To view your Keyboard Macros, you would type:
+
+                #
+
+   And you would see something like this:
+
+        #0 'w910;w910;w910;find;go;protect;rpt30'
+        #1 ''
+        #2 ''
+        #3 ''
+        #4 ''
+        #5 ''
+
+   The '' indicates the Macro Command String is empty.
+
+Command Files  . . . . . . . . . . . . . . . . . . . . . . 02.02.00.00.00
+
+   Command files allow you to automate your ship while you are not signed
+   in. It tells Universal Mayhem how to handle enemy ships and friendly
+   ships.
+
+   Note that for any of these you may say ALL for the ship names.
+
+ATTACK . . . . . . . . . . . . . . . . . . . . . . . . . . 02.02.01.00.00
+
+   You may attack any number of ships you want. If you make a list of
+   ships to attack, when they sign in, your ship will warp into the area
+   they are in and take them on.
+
+ASSIST . . . . . . . . . . . . . . . . . . . . . . . . . . 02.02.02.00.00
+
+   The assist command will allow you to help friends when they attack
+   other ships. If you assist, say DUCK, when DUCK attacks someone, your
+   ship will warp into the battle zone and start attacking the same ship
+   DUCK is attacking.
+
+   It's important to note that if the friendly ship warps around the battle
+   zone or leaves the area, your ship will stop assisting unless the
+   friendly ship starts attacking again.
+
+DEFEND . . . . . . . . . . . . . . . . . . . . . . . . . . 02.02.03.00.00
+
+   Doesn't work. It was intended to defend ships in the event anyone
+   attacked them. The only problem at this stage is the amount of memory
+   required to store all ships defense information. 
+
+   Some day, perhaps... This may be added.
+
+RUN-FROM . . . . . . . . . . . . . . . . . . . . . . . . . 02.02.03.00.00
+
+   You can tell Universal Mayhem who to run from if they sign in. As they
+   get too close, your ship will attempt to run for it!
+
+BAIL-OUT . . . . . . . . . . . . . . . . . . . . . . . . . 02.02.04.00.00
+
+   Of course, your ship will need to know when to stop attacking and make a
+   run for it. This is the BAIL-OUT parameters in the command files. You
+   have a variety of ways to bail out.
+
+   If your ship bails out, it will randomly choose a direction and then
+   randomly choose a number of jumps to warp in that direction. It will
+   then turn the command file automation aspects off, leaving your ship in
+   a posture to defend only if attacked.
+
+POWER  . . . . . . . . . . . . . . . . . . . . . . . . . . 02.02.04.01.00
+
+   Bail-out when power drops below a given value.
+
+TORP . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.02.04.02.00
+
+   Bail out when the number of torpedoes drops below a certain number.
+
+TIME . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.02.04.03.00
+
+   Bail out of the player has less than this number of minutes left
+   to play. This is so that your ship is not left in the area if the
+   time runs out.
+
+DAMAGE . . . . . . . . . . . . . . . . . . . . . . . . . . 02.02.04.04.00
+
+   Bail out if your ship receives any damage.
+
+Stringing  . . . . . . . . . . . . . . . . . . . . . . . . 02.03.00.00.00
+
+   You may string commands together by using the ; character. As an example,
+   the following can be done:
+
+   find;go;s7100;find;go;b7100
+
+   This is rather wasteful in time and power but is useful for finding
+   the closest planet, warping to it, selling a class 100 shuttle, finding
+   the next closest planet, going to it, and then buying a class 100
+   shuttle.
+
+   Of course, you can loop this:
+
+   find;go;s7100;find;go;b7100;rpt30
+
+   This will cause the execution of the command string 30 times. It's
+   important to note that if you ever want to terminate a loop, you only
+   need to hit the ESCape key.
+
+Help . . . . . . . . . . . . . . . . . . . . . . . . . . . 02.04.00.00.00
+
+   Help is available in a variety of ways. The most common is the HELP
+   command and the HLP commands.
+
+Description  . . . . . . . . . . . . . . . . . . . . . . . 03.00.00.00.00
+
+   Universal Mayhem is a game where FidoNet people may fight against
+   each other symbolically. The players build and maintain ships and bases,
+   and try to perform commerce such that their ships are strong enough
+   to attack and defeat other ships.
+
+   At the heart of the game is the alliance postures which may crop up.
+   Ships may form alliances with other ships which offer interesting
+   possibilities, the least of which is a common base.
+
+Installation . . . . . . . . . . . . . . . . . . . . . . . 04.00.00.00.00
+
+   Create a subdirectory to hold the Universal Mayhem files. Then extract
+   the archive files, (usually UM-C-VER.ARC).
+
+   Edit SHIP.CFG according to what you want. The sample SHIP.CFG file is
+   quite descriptive.
+
+Subdirectories . . . . . . . . . . . . . . . . . . . . . . 04.01.00.00.00
+
+   Usually, Universal Mayhem is placed into a directory called MAYHEM. This
+   is by no means a requirement. The configuration file SHIP.CFG contains
+   a path by which Universal Mayhem may find subspace mail, (echo mail).
+
+Configuration file . . . . . . . . . . . . . . . . . . . . 04.02.00.00.00
+
+   Here is a sample configuration file for Universal Mayhem
+
+   10000		 ;xsize of the universe
+   10000		 ;ysize of the universe
+   password		 ;this is the systems password
+   30			 ;time in minutes player may stay on
+   00:00		 ;starting time allowed to play game, (24 hour clock)
+   00:00		 ;ending time allowed to play game, (24 hour clock)
+   100			 ;number of players allowed to have ships
+   c:\dutchie\mgm\mayhem ;where to find subspace messages
+   1:102/901.0           ;Origination Network address for subspace mail
+   1:102/901.1           ;Destination Network address for subspace mail
+   0                     ;Com port assignment 0=com1, 1=com2
+   on			 ;Allow Subspace Messages ('on' or 'off' only)
+   yes			 ;Watch carrier detect when console is redirected?
+   yes			 ;Have ANSI colors enabled if asked for?
+   yes                   ;Enable statistics feature? (yes or no)
+   1:102/901             ;Address for STATISTICS messages to be mailed to
+   badwords.doc          ;Where are the bad words we won't allow to be found?
+   c:\frontdoor\files    ;Where are the file attached files sent to
+   c:\frontdoor\file\imports ;Where are received files to be found for statistics
+   c:\frontdoor\mail     ;Where is your network mail directory located
+   no                    ;Hold statistics message packets for pick up?
+   Universal Mayhems West Coast Home 1:102/901.0 818-335-0128
+   none                  ;Origin line for network mailed messages (stat files)
+   21:00                 ;Can't page system operator after this (24 hour clock)
+   08:00                 ;Can start paging SysOp after this (24 hour clock)
+   no                    ;Are you running a Tandy computer?
+   yes                   ;Reset the computer automatically if Mayhem crashes
+
+   Notice that the last line MUST have a carriage return after it. Also
+   note that you may place any comments after the parameters.
+
+   The parameters MUST be in the order indicated or nothing will work.
+   There may NOT be any blank lines in the SHIP.CFG file either. 
+
+XSize of the universe  . . . . . . . . . . . . . . . . . . 04.02.01.00.00
+
+   This value is the left-to-right size of the universe. It is also used
+   to determine the number of planets, stars, black holes, white holes,
+   and mines in the universe.
+
+   It must be from 1000 to 32766 in value.
+
+YSize of the universe  . . . . . . . . . . . . . . . . . . 04.02.02.00.00
+
+   This value is the up-to-down size of the universe. It is multiplied with
+   the xsize to determine the total number of sectors, (spaces), in the
+   universe.
+
+   It must be from 1000 to 32766 in value.
+
+   Typically, the xsize and the ysize are the same.
+
+System operators password  . . . . . . . . . . . . . . . . 04.02.03.00.00
+
+   This is the password to use with the SYSOP command. The SYSOP command
+   allows you to perform maintenance to the users files. The reason there
+   is a password is because suspension to DOS is allowed.
+
+Time to play . . . . . . . . . . . . . . . . . . . . . . . 04.02.04.00.00
+
+   This is the number of minutes a player may play on the system before
+   being bounced out. This number of minutes are in effect for a day.
+
+   IMPORTANT:
+   
+   If you have players already in the user file and you extend the number
+   of minutes allowed to play in SHIP.CFG, those players will not have the
+   extended amount of minutes to play for the day. If they sign in the next
+   day, they will have the full number of minutes to play.
+
+Starting allowed time to play  . . . . . . . . . . . . . . 04.02.05.00.00
+
+   You may turn the game off and on with this value and the one that
+   follows.
+
+   This value determines the starting time that the game may be played.
+   If it is 00:00, then there is no starting time and anyone may play at
+   any time.
+
+Ending allowed time to play  . . . . . . . . . . . . . . . 04.02.06.00.00
+
+   This is the ending time that players are allowed to play. If you wanted
+   to allow play from 7 am to 4 p.m., then these two values would look like:
+
+   07:00			;starting time
+   16:00			;ending time
+
+Number of players maximum  . . . . . . . . . . . . . . . . 04.02.07.00.00
+
+   The number of players who can have a ship at one time. There is a
+   limit somewhere around 150 players.
+
+   Usually you leave this at around 100. If you have more players than
+   that, the SYSOP command has an option allowing the increase of this
+   value without destroying the players files.
+
+Subspace (EchoMail) mail Directory . . . . . . . . . . . . 04.02.08.00.00
+
+   This is the subdirectory name of where subspace mail goes. You should
+   NOT append an additional \ to the end of the file name as I'm not
+   sure if I put code in to strip it away.
+
+   In the development system, there is a batch file that takes the mail
+   from the development directory and throws it into the dutchie 
+   subdirectory. It's name is TOSS.BAT and it looks like this:
+
+                        copy *.msg \dutchie\mgm\mayhem
+                        del \dutchie\mgm\mayhem\lastread
+                        del *.msg
+
+   Not very sophisticated, true, and your system of tossing mail from
+   the Universal Mayhem directory, renumbering it, and so forth, is
+   going to need to be done totally different according to your system.
+
+   See also the section for file LASTMSG.SHP here next:
+
+LASTMSG.SHP file . . . . . . . . . . . . . . . . . . . . . 04.02.08.01.00
+
+   This file contains the highest message number in the destination
+   directory for Universal Mayhem to start creating.
+
+   --- Version 1.50 Note:
+
+   Mayhem doesn't use the LASTMSG.SHP file any more. If you have it, get
+   rid of it if Mayhem used it. Universal Mayhem will now scan the mail
+   directory as described in the SHIP.CFG file and find out what the
+   highest message number in that directory is. It will create the next
+   highest message number and put the message it creates in that directory.
+
+FidoNetwork Mailing address  . . . . . . . . . . . . . . . 04.02.09.00.00
+
+   This is your systems FidoNet address. If you don't have one, it should
+   be set to 0.
+
+Subspace (EchoMail) outbound network address . . . . . . . 04.02.10.00.00
+
+   If you are tied into the FidoNet echo mail for Universal Mayhem, this
+   is the address of the system that you feed and poll for AREA:MAYHEM.
+
+   If you don't want to have it, set this address to 0.
+
+   --- Version 1.50 Note:
+
+   The destination address may now contain the name of a file that has within
+   it a list of FidoNet addresses where the subspace echo mail should be
+   delivered to. The above SHIP.CFG file, using this feature of offering a
+   file name, would look something like this:
+
+                        (SHORTENED FROM ABOVE)
+
+   c:\dutchie\mgm\mayhem ;where to find subspace messages
+   1:102/901.0           ;Origination Network address for subspace mail
+   @mayhem.lst           ;Destination Network address for subspace mail
+   0                     ;Com port assignment 0=com1, 1=com2
+   on                    ;Allow Subspace Messages ('on' or 'off' only)
+
+                        (SHORTENED FROM ABOVE)
+
+   Here you will notice that the destination network address has been
+   changed to a file called MAYHEM.LST. The @ before the name must be
+   present or the mail will go no where.
+
+   This file contains network addresses that must be explicitly described
+   completely and look something like this:
+
+                1:128/74
+                1:365/47
+                1:102/901.1
+
+   The zone number, network number, and node number must be supplied. The
+   point number is optional. You can _NOT_ use keywords like 'all' and 'mine'
+   as you can with FidoNet node crunchers and the like.
+
+Communication Port Assignment  . . . . . . . . . . . . . . 04.02.10.01.00
+
+   VERY important: If your modem is on port 1, this value should be o.
+   If on port 2, this value MUST be 1.
+
+   No other ports are supported. If you have an application where you
+   really MUST have Universal Mayhem on another com port, let me know and
+   I will spend the time on it and mail the update. Free of charge.
+
+Allow Subspace Mail  . . . . . . . . . . . . . . . . . . . 04.02.10.02.00
+
+   VERY IMPORTANT if your BBS software does NOT support Fido/Opus type
+   message formats. Unfortunately, only this one format is supported as
+   yet. After I get some additional mail file formats, they will be
+   added.
+
+   If you don't want Universal Mayhem to allow Subspace Mail, then set
+   this value to 'off', otherwise set it to 'on'. The word does not need
+   to be in uppercase but it can be. Universal Mayhem will read it and
+   check it for yes/no either way.
+
+Watch Carrier Detect . . . . . . . . . . . . . . . . . . . 04.02.10.03.00
+
+   --- Version 1.00 Note:
+
+   This parameter in the SHIP.CFG file determines if Carrier Detect on
+   the modem should be watched. Universal Mayhem used to use WATCHCD
+   for making its determination to see if a player hung up in the 
+   middle of the program.
+
+   If this value is 'NO', then Universal Mayhem will ignore the carrier
+   detect on the com port that is described as one of the parameters in
+   the .CFG file. This is useful when you want to run Universal Mayhem
+   from the console.
+
+   If this value is 'YES', then Universal Mayhem will check the status
+   of the com port every time a character is needed from the modem. If
+   carrier detect is not present, Universal Mayhem will display a
+   small one-line notice to the modem and perform a structured bail out,
+   closing all files, freeing up memory and such. The program will also
+   exit with an ERRORLEVEL that indicates that carrier detect was lost.
+
+   This means that WATCHCD is no longer needed with this version and
+   future versions of Universal Mayhem.
+
+Allow ANSI color to be used  . . . . . . . . . . . . . . . 04.02.10.04.00
+
+   --- Version 1.00 Note:
+
+   On of the parameters in the SHIP.CFG file determines if you want to
+   allow ANSI color graphic sequences to be sent to the player. The
+   player then gets to determine if he/she want to have ANSI color.
+
+   The reason the SysOp was given the option of enabling/disabling
+   the color availability was to give him or her a sense of power.
+
+   No, actually, it's encase the majority of the players have older
+   terminal programs that don't handle color graphic sequences as
+   proposed by ANSI. PROCOMM PLUS handles it find, as does running the
+   program from the console with ANSI.SYS installed.
+ 
+Mayhem Statistics Feature  . . . . . . . . . . . . . . . . 04.02.10.05.00
+
+   --- Version 1.50 Note:
+
+   To allow the Mayhem statistics to work, you must have the network mail
+   enabled ('allow subspace messages' in the SHIP.CFG file) and have the
+   statistics feature also enabled ('statistics feature', in the SHIP.CFG
+   file). SEE THE Description on SHIP.CFG in this document.
+
+              --- What is the statistics feature?
+
+   If you have the statistics feature enabled, then the Mayhem program will
+   scan your users data file once every Friday and compose a FidoNet message
+   package addressed to me which contains the following information:
+
+   o The network address of your system
+
+   o How many active ships your system currently has
+
+   o Information on your systems strongest power player:
+     o The name of the player
+     o The strength of the player (in terms of power)
+     o Date and time the player was last active
+
+   o Information on your systems highest planet ownership player:
+     o The name of the player
+     o The number of planets owned by that player
+     o Date and time the player was last active
+
+   o Information on your systems highest killer player:
+     o The name of the player
+     o The number of kills that player has
+     o Date and time the player was last active
+
+   This information, along with all other sites that wish to do the same, will
+   be compiled by my system and placed into a file called STATS.SHP. This file
+   is readable by the MAYHEM.EXE program which is the menu that's offered to
+   each player upon shelling from the FidoNet BBS software. On Sunday of each
+   week, my system will mail the statistics file STATS.SHP to your system,
+   offer outbound mail packets, and poll your system for outbound subspace
+   mail.
+
+   I hope to be able to get other systems to call my system to perform the
+   exchange, allowing me to put STATS.SHP as a file attach for pick-up. This
+   will help defray my cost some and perhaps speed up the echo conference.
+
+   If the statistics feature proves to be too much or is not desired by enough
+   nodes, in deed, of the echo mail conference doesn't live well, it will be
+   discontinued and something else, some other feature, will take its place.
+
+                   --- When will it be available?
+
+   The Statistics feature is available starting with version 1.50. I would
+   like to know in advance if this is a good idea or not before I release it.
+
+Address for Statistics . . . . . . . . . . . . . . . . . . 04.02.10.06.00
+
+   --- Version 1.50 Note:
+
+   This is the network mailing address where the Statistics Feature message
+   packets will be addressed to. It is usually me, but can be any valid
+   network address.
+ 
+BAD WORD Exclusion look-up file  . . . . . . . . . . . . . 04.02.10.07.00
+
+   --- Version 1.50 Note:
+
+   The entry in the SHIP.CFG file that is described as a bad-word
+   exclusion file is a file that you create and/or edit (as I will be
+   sending one of my own with Mayhem starting at version 1.50) that is
+   used to check the players typed-in entries for bad words. There
+   are currently these aspects of player entered things that are
+   checked:
+
+      o Ships name
+      o Ships password
+      o Name of the player
+      o Subspace messages subject and text
+
+   If the players typed-in entry contains a word that is in the bad file
+   exclusion list, then the player is told that the entry is unacceptable
+   and is told to re-enter what ever it was that was being requested.
+
+   Kevin from 128/74 wanted this; he is somewhat of a prude, huh?
+
+   --- Version 2.0 Notes:
+
+   The additions to the SHIP.CFG file made for version 2.0 are:
+
+   c:\frontdoor\files    ;Where are the file attached files sent to
+   c:\frontdoor\file\imports ;Where are received files to be found for statistics
+   c:\frontdoor\mail     ;Where is your network mail directory located
+   no                    ;Hold statistics message packets for pick up?
+   Universal Mayhems West Coast Home 1:102/901.0 818-335-0128
+   none                  ;Origin line for network mailed messages (stat files)
+   21:00                 ;Can't page system operator after this (24 hour clock)
+   08:00                 ;Can start paging SysOp after this (24 hour clock)
+   no                    ;Are you running a Tandy computer?
+
+   The 'Universal Mayhem West Coast Home' line is the * origin line used
+   for the Echo Mail messages. Some mailers require Mayhem to add it. If
+   you don't need to have Mayhem add the origin line, set this value to none.
+
+   The 'none' that follows it is the origin line for the statistics feature
+   packets. Since the value is 'none', network mail messages sent by Mayhem
+   will not have an origin message applied to them.
+
+Reset the computer automatically if Mayhem crashes . . . . 04.02.10.08.00
+
+   --- Version 2.3 Notes:
+
+   An addition for version 2.3: Reset the computer if Mayhem crashes.
+
+   Universal Mayhem now has the ability to reset the computer if it crashes.
+   It does this by tapping into the 18.2 clock-tick interrupt. Mayhem will
+   reset a counter every time it performs various tasks. The clock-ticker
+   will increment the the same counter. If the counter exceeds five minutes
+   of clock ticks, then the keyboard is instructed to reset the computer.
+
+   In order for this to work, your keyboard must be able to reset the computer.
+   To find out if it can, perform the following from the DOS command line:
+
+                       DEBUG           [return]
+                       A               [return]
+                       MOV     AL, FE  [return]
+                       OUT     64, AL  [return]
+                       JMP     104     [return]
+                                       [return]
+                       G=100           [return]
+
+   Your computer should reset. If it does, then you can use this option. If
+   it doesn't, then you'll just have to let Mayhem crash without a reset.
+   If you run a system that has multiple DOS (or other) partitions, then you
+   probably don't want to reset unless it resets only the crashed partition.
+
+Redirection  . . . . . . . . . . . . . . . . . . . . . . . 04.02.11.00.00
+
+   --- Version 1.40 Note:
+
+   GATEWAY IS NO LONGER NEEDED FOR REDIRECTION! Finally and at last! The
+   Universal Mayhem program will perform the redirection for itself and
+   does not require Gateway or any other redirection program.
+
+   When MAYHEM.EXE is run from the OPUS or FidoNet software, it will
+   immediately check to see if a carrier is present on the com port. If
+   it is present, then the program considers itself to be running from
+   a BBS program and will redirect itself to the com port that is
+   defined in SHIP.CFG.
+
+   If the carrier is not present on the com port, then the program will
+   consider itself to be running from the operators console and will not
+   redirect itself out of the com port.
+
+   In either case, redirected or not, the operators console has the same
+   ability to see and enter characters just as the player does when the
+   program is being re-directed.
+
+   SHIP.EXE, which is invoked from MAYHEM.EXE, does exactly the same thing
+   when it checks to see if it is being redirected. Some SysOps have the
+   FidoNet BBS software go directly to SHIP.EXE and it was because of
+   this that the effort was duplicated.
+
+Maintenance  . . . . . . . . . . . . . . . . . . . . . . . . 05.00.00.00.00
+
+   Well, file SHIP.ERR and SHIP.LOG should be reviewed and deleted every
+   now and then. Other than that, there isn't that much to do.
+
+Network Mail . . . . . . . . . . . . . . . . . . . . . . . 06.00.00.00.00
+
+   Not totally tested in Beta Version, the subspace mail can be echo mail
+   if you want. In any event, the message files created are according to
+   OPUS file format and should be readable by the BBS programs as a
+   specified message area.
+
+   The origination and destination network address for the Echo Mail is
+   defined in the configuration file: SHIP.CFG.
+
+Network Version  . . . . . . . . . . . . . . . . . . . . . 07.00.00.00.00
+
+   The Universal Mayhem program _will_ run on a network. Look for a file
+   called NETWORK.ING with the distribution archive for additional
+   details.
+
+   Basically, however, Universal Mayhem was tested on a Novel Ethernet.
+   It works well enough but you will not see other ships as they move
+   through your area.
+
+                                    - - -
+
+   There _is_ a commercial version of Universal Mayhem which supports all
+   networking capabilities, including the ability to see enemy ships that
+   are active along with yours. You can actually fire at another human that
+   is fighting back at another station.
+
+   If interested, ask me about the commercial version.
+
+Other Information  . . . . . . . . . . . . . . . . . . . . Appendages .00
+
+   A technical discussion of the enemy ships automation process: It's
+   interesting to note how the ships are automated. There is what I like
+   to call, a psudomultitasking operating system embedded in the
+   Universal Mayhem package. Its bones consist of a rotational-singly-
+   linked list of data structures in RAM that are allocated on an
+   as-needed basis. As ships bail-out of automation for one reason or
+   another, the RAM is de-allocated, making Universal Mayhems' memory
+   allocation processes very tight and very non-wasteful in systems
+   resources.
+
+   The automation process is derived from the input routine which is
+   usually where most of the programs process time is spent, waiting for
+   a player to enter some command.
+
+   A pointer to the first data structure is maintained and the last
+   entry in the linked list points to the first. This makes is a circular
+   linked list.
+
+   During the multitasking time slice, the data structure being pointed to
+   by the variable "m_run" is picked apart to determine if the ship that
+   is described in the link list should attack, defend, assist, run-from,
+   or bail-out. As the data is examined, the pointers to the functions to
+   perform are invoked to automate the ships.
+
+   During the next time slice, the pointer gets bumped forward somewhere
+   in the linked list and the next ship in the list is automated.
+
+   Testing in the past has shown, even on slow machines, an automation
+   factor of well over 4000 automative moves processed by enemy ships every
+   minute.
+
+   This made the enemy ship movements too fast; more so when ships are
+   attacking you as you sign in. They come from all the way across the
+   universe and attack you. When you try to warp out, even at higher
+   warps than the attacking ship, you can't get away from them and the
+   player has NO TIME to defend.
+
+   I changed this way of thinking and made the ship automation process VERY
+   slow by widening the time slice segment allocated for the input routine
+   and making the automation time slice segment very small. In addition,
+   automated ships that are attacking can only operate at half of their
+   warp capacity. When warping in to defend their bases, however, they are
+   allowed to maintain top speed.
+
+   - - -
+
+   There are some interesting techniques and strategies which have been
+   developed which I have watched at Astro-Net (103/903). Most centered
+   around alliances; the ability to board each others bases, creating a
+   string of thoughtfully placed community bases and attack swarms to keep
+   enemy ships away.
+
+   Fortunately, I have even seen differences in programming styles and
+   wars fought over editors used, waged in the Universal Mayhem continuum.
+
+   --- Version 1.40 Notes:
+
+   When you attempt to warp into the center of the universe, you will
+   notice that your ship will get bounced off of the center spot. This is
+   because all ships are created at that spot and as such, stay at that
+   location until they move. It was found that if a ship were to warp to
+   the center spot and stay at that location, no ships could destroy it.
+   
+Problems . . . . . . . . . . . . . . . . . . . . . . . . . 08.00.00.00.00
+
+   If you have problems or questions:
+ 
+   Fredric L. Rice
+   674 East Bridwell
+   Glendora, California.
+   91740
+
+   1:365/47   Mayhem Home East Coast  904-368-6945 Smokeys Place
+   1:128/74   Mayhem Home Central     719-390-0529 Hornets Nest
+   1:102/901  Mayhem Home West Coast. 818-335-0128 Universal Mayhem
+
+   It's important to note that I am _NOT_ a SysOp.
+
+Un-documented aspects . . . . . . . . . . . . . . . . . . . 09.00.00.00.00
+
+   There are a few things that are not normally documented.
+
+FREE . . . . . . . . . . . . . . . . . . . . . . . . . . . 09.01.00.00.00
+
+   Tells you how much space Universal Mayhem takes in memory. Also tells
+   you some other information that is totally useless and used only by
+   the author when he calls in to test for bugs.
+
+   --- Version 1.30 Note:
+
+   In version 1.20, this command offered a little additional information
+   which you might find interesting. It displayed the addresses of the
+   linked list containing information on the command-file operated ships
+   that have some declarative outstanding against or for your ship, the
+   active ship.
+
+   Though this information is worthless to the player and SysOp alike,
+   its implementation was imperative for the programmer for detailed
+   examination and testing of the command file structures to test for
+   data integrity.
+
+   Version 1.30 has this data dump of the linked list removed.
+
+SYSOP  . . . . . . . . . . . . . . . . . . . . . . . . . . 09.02.00.00.00
+
+   The SYSOP activities are password protected and the password is found
+   in the configuration file. ALWAYS change the password every week or so,
+   mostly if you see repeated attempts to find it by looking at the SHIP.LOG
+   file.
+
+Removing unwanted/abandoned ships . . . . . . . . . . . . 09.02.01.00.00
+
+   You may remove all destroyed or abandoned ships simply by requesting
+   the various menu options. When deleting abandoned ships, you need to
+   offer the four character name of the ship to remove.
+
+Remove a specific ship . . . . . . . . . . . . . . . . . . 09.02.01.01.00
+
+   If a specific ship is making you angry, why not remove it? This command
+   will ask you for the name of the ship that should be removed. It will
+   inform you that it's been done.
+
+Move a base, ship, or return scout ships  . . . . . . . . 09.02.01.02.00
+
+   You may move a ship, its base, or return all of a ships scout ships
+   back to the ships on-board state.
+
+   --- Version 1.50 Notes:
+
+   The addition of the ability to return a ships scouts to on-board was
+   added for testing of the scout functions and was kept in as it only
+   cost about 200 bytes of code space.
+
+Display a ships information  . . . . . . . . . . . . . . . 09.02.01.03.00
+
+   This command will cause a 'STAT' command to be executed for the ship
+   that you name. In addition, the ships password is also offered to the
+   SysOp.
+
+Expanding the users data file  . . . . . . . . . . . . . . 09.02.02.00.00
+
+   If you need to allow more players access to the system, this command
+   will append empty record to the end of the SHIP.DAT file, keeping the
+   contents of the original file intact.
+
+   It's important to update the SHIP.CFG file if you use this command.
+
+Suspension to DOS  . . . . . . . . . . . . . . . . . . . . 09.02.03.00.00
+
+   You may suspend do DOS remotely, allowing you to perform various
+   activities directly to your system as though you were at the keyboard.
+ 
+   I would strongly suggest that you read the warnings outlined in
+   section (10.00.00.00.00), however, because suspension to DOS may cause
+   all kinds of problems.
+
+   When done, type "EXIT" at the prompt to return to Universal Mayhem.
+
+   --- Version 1.30 Note:
+
+   As an additional reminder when in a DOS shell from Universal Mayhem,
+   I have added a 'enter "EXIT" to return to Universal Mayhem' string
+   to your DOS prompt.
+
+   What I will do is this:
+
+   o See if there is an existing PROMPT defined in your environment
+
+   o If there is
+
+     o Change your DOS prompt to contain the reminder and your original
+       DOS prompt, (This means that your original prompt is kept but
+       you will get my reminder message before your prompt every time
+       you hit enter).
+
+     o Shell out to DOS
+
+   o If there is no prompt string
+
+     o I set your prompt to the reminder string, perform a new line, then
+       create a prompt containing the drive number and directory path and
+       then a > symbol).
+
+     o Shell out to DOS
+
+   o When you enter EXIT, Mayhem will:
+
+     o Resume to execution at the SysOp menu, asking for an option
+
+   It's quite interesting to notice that, since DOS creates a new shell
+   and duplicates all of the environment strings, exiting Mayhem will
+   cause the PROMPT variable to be automatically restored.
+
+   If you shell out of mayhem and modify or remove any environment
+   variables, the updates you make will not be permanent as when you
+   type EXIT to return to Mayhem, the old shells environment table is
+   restored.
+
+   Kind of interesting... I noticed that Procomm, Procomm Plus, Procomm 
+   Plus Test Drive, and Brief, to name a few, modify the PROMPT in the
+   same manor to achieve a reminder prompt.
+
+   --- Version 2.3 Note:
+
+   If the 'Reset computer if Mayhem crashes' option is enabled in the
+   SHIP.CFG file, a shell to DOS will first set the clock tick interrupt
+   back to what it originally was and then shell to DOS.
+
+   After the DOS is exited, Mayhem will check to see if the clock ticker
+   has changed (by some other program run while the SysOp was shelled)
+   and re-vector the clock ticker back into the Mayhem code so that it
+   again will reset the computer while Mayhem is running.
+
+   This is done so that the computer will not have the clock ticker time-out
+   reset that Mayhem employs _while_ shelled to DOS. If the computer
+   crashes while shelled (because the SysOp ran something), the computer
+   will _not_ automatically reset after a minute.
+
+Edit user power/credits/time . . . . . . . . . . . . . . . 09.02.04.00.00
+
+   You may edit a players power, credits, and time remaining to play.
+   This is useful if you want to restore a bug-related problem that
+   allowed a ship to get too strong or play too long.
+
+   Another use for it is to set the Galactic Police up as a very strong
+   ship. Stronger than normal, allowing you the SysOp to set the power.
+
+Taking planets away  . . . . . . . . . . . . . . . . . . . 09.02.05.00.00
+
+   As a SysOp, you are allowed to take planets away from a player. This
+   is normally only used if you detected a corrupted data file and
+   need to clean up the planets ownerships without recreate of the
+   universe file.
+
+   When you remove a ship from the player file, all of its planets
+   are handed over to the general universe use and are marked as not
+   owned by anyone. These planets taxes goes towards the cops.
+
+Remove all ships that have not moved . . . . . . . . . . . 09.02.06.00.00
+
+   --- Version 1.50 Notes:
+
+   A lot of times, players will shell to Mayhem from the BBS, create a
+   ship, and then not move. It's not understood where to find instructions
+   for the game and in a lot of cases, the game is simply too complicated
+   to get moving right away.
+
+   Callers will also not know where to download this file.
+
+   Because of this, this command was added which will scan through the user
+   data base and erase all ships that have been created but have not
+   moved yet.
+
+   As the program runs, you are informed of the names of the ships that
+   have been removed.
+
+Import remote players (Statistics feature) . . . . . . . . 09.02.07.00.00
+
+   This option will cause Mayhem to execute a stand-alone program called
+   UMREMOTE.EXE. This program will scan through the STATS.SHP file for
+   all remote players that are in this file and will plug them into
+   your systems player data file SHIP.DAT.
+
+   For more information on the importation of remote players data records,
+   see the 'Statistics Feature' description in section 04.02.10.05.00.
+
+Warnings . . . . . . . . . . . . . . . . . . . . . . . . . 10.00.00.00.00
+
+   While suspended to DOS, you should never run programs that write to the
+   video screen memory directly. This will not be directed and you may not
+   be able to see where you are in a program to get out of it.
+
+   WATCHCD _should_ bail you out if you need to hang up but I would
+   suggest that if you do suspend to DOS and get lost, drop carrier and
+   then call your system back as soon as possible to make certain that
+   the BBS software has reloaded and you are not still allow DOS access
+   over your modem.
+
+   I should mention that suspension to DOS does work and I have never been
+   able to get the system to crash when used in a normal way, running
+   programs that don't map directly to view RAM.
+
+   TYPE, DEL, FORMAT: These all work. To make things a little more safe,
+   you COULD rename a .COM file to TYPE.COM, DEL.COM, and FORMAT.COM such
+   that if any unauthorized person DID get into your DOS, they would not
+   be able to type anything, delete anything, or format anything because DOS
+   will execute the .COM file first.
+
+Getting destroyed  . . . . . . . . . . . . . . . . . . . . 10.01.00.00.00
+
+   --- Version 1.00 Notes:
+
+   Well, it happens. If you are destroyed, you are asked for your ships
+   password when you start the game and then will be informed of who
+   destroyed your ship. You are then asked if you want to continue the
+   game by starting over.
+
+   In the older version, the ships password was overwritten with the name
+   of the ship that destroyed you. This was done to save bytes from the
+   disk file but that was determined to be silly... Another five bytes
+   for the ships name is well worth the clean was that ships are restarted
+   after being destroyed.
+
+   If you noticed, if you sign in as a destroyed ship in the older version,
+   you don't need to give a password. This is a bug I never fixed in that
+   version and really should have.
+
+CREATE.EXE . . . . . . . . . . . . . . . . . . . . . . . . 11.00.00.00.00
+
+   This is the program that creates the universe. It's a stand alone
+   program that you run with the modem turned off or the phone off the
+   hook, (never leave the phone off the hook too long; the central office
+   equipment remains in-use and ties up a lot of equipment. The tone
+   generator software that drives the hundreds of CO loop lines _can_
+   get bogged down if we all leave the phone off the hook).
+
+   The program will write over an existing universe so you need not
+   delete an old one if you are changing the size of the universe.
+
+   The program will ask you the following question:
+
+   1) Allow planets to have names
+   2) Do NOT allow planets to be named
+
+   The program will tell you the amount of disk space you would save if
+   you choose option 2. The savings in disk space is because each name
+   is 16 bytes long. Multiplied by the XSIZE value which is further
+   multiplied by 4 is a LOT of disk space.
+
+   Consider a universe that is 10,000 by 10,000 sectors.
+
+   10000 * 16 * 4 = 640,000 bytes or about 1/2 the size of the
+   PLANETS.DAT file.
+
+   Allowing players to name their commerce planets adds a certain amount
+   of fun to the game and should be allowed if you have the disk space
+   available. The option was created because MOST of the FidoNet SysOps
+   have drives that are totally crammed to the edges with echo mail.
+
+   After answering this question, the program will go on to create the
+   UNIVERSE.DAT file and the PLANETS.DAT file. It will then link the
+   black holes in the universe to white holes.
+
+   Actually, only a percentage of the black holes are linked. It's in
+   the linking phase that the time consumption is noticed. I have seen
+   that on my old AT, running some 6 MHZ, a universe of 10,000 by 10,000
+   takes about five minutes to create.
+
+MAYHEM.EXE . . . . . . . . . . . . . . . . . . . . . . . . 12.00.00.00.00
+
+   This program is the main menu that gets called from the batch file
+   that is called from the BBS software. It offers the player the
+   following options:
+
+   1) Run Universal Mayhem
+   2) Get run-down of the game
+   3) Where is the documentation
+   4) View latest updates
+   5) Return to the BBS software
+
+   At MAYHEM.EXE execution, file SHIP.SCR is read and displayed. This is
+   the Universal Mayhem Logo, (which has been copy written as a trade mark,
+   even though its a non-commercial copy right).
+
+   IF YOU DON'T WANT this screen, simply put what ever you want into the
+   file or just delete it.
+
+   --- Version 1.40 Notes:
+
+   When the Universal Mayhem logo is being displayed (SHIP.SCR file) when
+   the game first starts, the user (player) may hit 's', escape, or
+   control C to stop the display.
+
+   - 1 Run Universal Mayhem -
+
+      This option will execute the program SHIP.EXE. After execution, the
+      program will return directly to the BBS software, bypassing the
+      MAYHEM.EXE program. Versions prior to 1.40 used to have SHIP.EXE
+      executed as a child process to MAYHEM.EXE at this and allowed the
+      MAYHEM.EXE process to maintain watch over its child. In version 1.40,
+      we simply spawn the new process thus overwriting the SHIP.EXE in
+      memory. This gives Mayhem and any other task that may be a TSR an
+      additional 100,240 bytes of free memory space!
+
+   - 2 Get Run-down -
+
+      The run-down is a file called SHIP.INF. When this option is requested,
+      the contents of this file is dumped to the screen and/or modem.
+
+      The player may terminate the run-down by entering "END" when the
+      program pauses to await carriage return.
+
+   - 3 Where is documentation -
+
+      This option tells the player the files area number and title of where
+      to find the MAYHEM.DOC file, (this one, in fact). This information is
+      contained in the SHIP.INF file as the VERY FIRST LINE. It would look
+      something like this:
+
+      Area 3 - Universal Mayhem Files
+
+      If the file is not locate-able, then the player will get a message
+      informing them that the file could not be located and that the
+      documentation is unavailable.
+
+   - 4 View latest updates -
+
+      This information is contained in a file called LASTUPDT.SHP. The file
+      is created by the author Fredric Rice and is mailed out with program
+      updates.
+
+      It allows players to immediately know when Universal Mayhem has changed
+      and something new has been done. The menu will display the date in
+      the menu so that it's very easy to get all the update information.
+
+   - 5 Return to BBS -
+
+      This option will simply cause the returning to the BBS software.
+
+   --- Version 1.30 Note:
+
+   Option 5, (Return to BBS), has been moved to option number 6. Option
+   5 has been replaced and the menu is now:
+
+      1) Run Universal Mayhem
+      2) Get run-down of the game
+      3) Where is the documentation
+      4) View latest updates
+      5) Display top ten ships
+      6) Return to the BBS software
+
+   - 5 Display top ten ships
+
+   The new option will allow players to view the standings of all of the
+   players without needing to get all the way into Universal Mayhem to
+   do so. It provides a fast way to check up on the game status, then.
+
+   --- Version 1.40 Notes:
+
+   When the Universal Mayhem logo is being displayed (SHIP.SCR file) when
+   the game first starts, the user (player) may hit 's', escape, or
+   control C to stop the display.
+
+LASTUPDT.SHP . . . . . . . . . . . . . . . . . . . . . . . 13.00.00.00.00
+
+   This file contains a description of the latest updates I have made.
+   The file should _not_ be updated by the SysOp because it belongs to
+   me! The first line is the date of the last update and the remaining
+   usually describes various updates.
+
+   You should note that if this file does not exist, MAYHEM.EXE will run
+   just fine, no problem. The option on the menu will simply say that no
+   update information exists.
+
+   You should remove the lastupdt.shp file every now and then, usually
+   after everyone has had a chance to read it.
+
+SHIP.HLP . . . . . . . . . . . . . . . . . . . . . . . . . 14.00.00.00.00
+
+   This file contains the on-line help that players may pull up while in
+   the Universal Mayhem game. You may edit this file so long as you take
+   care and read the first section of the file to see how it's format is.
+
+   If the file is missing, the HLPxx commands will NOT work.
+
+SHIP.ERR . . . . . . . . . . . . . . . . . . . . . . . . . 15.00.00.00.00
+
+   This file contains a log of errors if they occurs. Usually, when you
+   want to report a bug, you send this file to me at:
+
+      1:365/47   Mayhem Home East Coast  904-368-6945 Smokeys Place
+      1:128/74   Mayhem Home Central     719-390-0529 Hornets Nest
+      1:102/901  Mayhem Home West Coast. 818-335-0128 Universal Mayhem
+
+   If you like, the error codes and meanings are here:
+
+        0     Size of universe was out of bounds and program refused to run
+        1     Unable to allocate enough dynamic memory to automate the ships
+        2     Unable to reopen user data file to append additional records
+        3     Error occurred when appending new user data records
+        4     Unable to reopen newly appended user data file
+        5     Unable to point to users data record for write in SHIP.DAT
+        6     Unable to write to users data record
+        7     Unable to point to users data record for read of SHIP.DAT
+        8     Unable to read from users data record
+        9     Unable to point to universe record for a read
+       10     Unable to read a universe record
+       11     Unable to point to enemy ships data record for read of SHIP.DAT
+       12     Unable to read enemy ships data record from SHIP.DAT
+       13     Unable to point to enemy ships data record for write to SHIP.DAT
+       14     Unable to write enemy ships data record to SHIP.DAT
+       15     Unable to point to planets file for read
+       16     Unable to read planets record
+       17     Unable to point to planets record for write
+       18     Unable to write to planets record
+       19     Unable to open SHIP.CFG file.
+       20     Universe data file is missing
+       21     Planets data file is missing
+       22     Configuration file contains bad or incomplete information
+       23     Configuration string value is bad or incomplete
+       25     Unable to create users data file SHIP.DAT
+       26     Error occurred when writing users data file SHIP.DAT
+       27     Problems reopening users data file SHIP.DAT after creation
+       28     Unable to allocate enough memory for the players ship
+       29     Players data file has been corrupted.
+       36     Unable to point to goals file for write
+       37     Unable to write goals record
+       38     Unable to point to goals record for read
+       39     Unable to read goals record
+       40     Unable to create SHIP.STD file for player standings
+       41     Tried to write to player SHIP.DAT when it wasn't opened
+       42     Tried to read from player SHIP.DAT when it wasn't opened
+       43     Tries to read from UNIVERSE.DAT when it wasn't opened
+       44     Tried to read from enemy SHIP.DAT when it wasn't opened
+       45     Tried to write to enemy SHIP.DAT when it wasn't opened
+       46     Tried to read PLANETS.DAT file when it wasn't opened
+       47     Tried to write PLANETS.DAT file when it wasn't opened
+       48     Tried to write GOALS.DAT file when it wasn't opened
+       49     Tried to read GOALS.DAT file when it wasn't opened
+       50     Tried to delete users scout file file to clear status
+       51     Could not rename SHIP.TMP file to users scout ship file
+      101     Tried to read from a file that wasn't opened
+      102     Tried to write to a file that wasn't opened
+      103     A file open was requested for an already opened file
+      104     Not all of the dynamically allocated memory was freed before
+              returning to the operating system.
+      105     Internal consistency check on command file linked list found
+              possible corruption of the linked list in command.c
+      106     Internal consistency check on command file linked list found
+              possible corruption of the linked list in torp.c for decoy
+      107     Command assist for m_run of linked list that was NULL
+      108     When remove of attacked ship was performed, linked list element
+              m_run was found to be NULL.
+      109     Command defend for m_run of linked list that was NULL
+      110     Command attack for m_run of linked list that was NULL
+      111     Command run-from for m_run of linked list that was NULL
+      112     Command decoy for m_run of linked list that was NULL
+      113     Command bail-out for m_run of linked list that was NULL
+      114     About to use hold[array] that accessed a NULL pointer. This
+              isn't a bad bug, it simply points out a potential programming
+              conflict that is handled through 'best guess' logic.
+      115     The list of network addresses for outbound mail could not
+              be found. Mail was not sent.
+      116     A string byte being written to a Subspace Message could not be
+              written for some reason.
+      117     An individual byte write to a Subspace Message could not be
+              written for some unknown reason.
+      118     A write to the file attach file could not be completed
+              for some reason.
+      119     Unable to write end of user data field in attach file
+      120     Write of ECHOSTAT.DAT file failed
+      121     An update of ECHOSTAT.DAT file failed
+      122     Appending of command file data to attach file for 'statistics'
+              message failed for some reason
+      123     Close of read-in file did not return a PASS condition
+      124     Close of ECHOSTAT.DAT file did not return PASS condition
+      125     Close of re-opened ECHOSTAT.DAT file did not return PASS
+              condition
+      126     Pre-create stat package close of ECHOSTAT.DAT did not return
+              a PASS condition
+      127     Copy of subspace messages using @mayhem.lst executed a close
+              command that did not return a PASS condition
+      128     Close of subspace mail file after write failure did not return
+              a PASS condition
+      129     Close of message file after write failure did not return a
+              PASS condition
+      130     @mayhem.lst file was attempted to be closed and the close did
+              not return a PASS condition
+      131     Attempted to close file attach file and the return value
+              did not indicate a PASS condition
+      132     Could not create temporary file when compacting Scout file
+      133     Attempt to clear a scout file entry failed to write
+      134     Attempt to write ships location to scout file failed
+      135     Attempt to write bases location to scout file failed
+      136     Attempt to write remotes location to scout file failed
+      137     Attempt to write swarms location to scout file failed
+      138     Attempt to write planets location to scout file failed
+      139     Attempt to write last visited by information to scout file failed
+      140     Attempt to write protected by information to scout file failed
+      141     Re-write of message.subject field failed
+      142     Almost had a ship attack/assist/defend/run-from itself! Some bug!
+      143     Couldn't allocate memory for wrap-around feature
+      144     Couldn't allocate memory for the user and enemy structures! Bad!
+      145     Drop file corrupted
+      146     Could not open a drop file that was in the directory
+      147     No drop file was found when Mayhem was executed
+      148     Remote Access message file couldn't be found!
+      149     Unknown Network message format!
+      150     The systems date was a little strange! Default to January
+      151     Failed to send RA/QBBS mail for some unknown reason
+
+SHIP.LOG . . . . . . . . . . . . . . . . . . . . . . . . . 16.00.00.00.00
+ 
+   This file contains a log of players sign-ins. More importantly, it also
+   keeps a log of attempts to access the SYSOP command. This is so that you
+   can see if someone make repeated attempts to get into the system.
+
+GOALS.DAT  . . . . . . . . . . . . . . . . . . . . . . . . 16.01.00.00.00
+
+   --- Version 1.00 Notes:
+
+   This file, which MUST be only 60 bytes long, contains the location
+   of each of the ten parts to the slaver death weapon. In addition, it
+   keeps track of who owns them.
+
+SHIP.INF . . . . . . . . . . . . . . . . . . . . . . . . . 16.02.00.00.00
+
+   --- Version 1.30 Note: (Documentation only)
+
+   This file contains a very important piece of information:  
+
+   The first line of this file is used by the MAYHEM.EXE file to find
+   the directory on your disk where this document file can be found.
+   When a player selects the option which tells what directory this
+   documentation file can be found, it reads the first line of the file
+   SHIP.INF and displays it.
+
+   It's important that this files first line be changed to reflect the
+   file area containing universal Mayhems document file. Make sure it's
+   the first line in the program.
+
+SHIP.STD . . . . . . . . . . . . . . . . . . . . . . . . . 16.03.00.00.00
+
+   --- Version 1.3 Note:
+
+   A new option from the MAYHEM.EXE file is the display of the players
+   standings. The way this is done is that MAYHEM.EXE simply dumps this
+   file to the users screen.
+
+   This allows the players to view the standings without having to get
+   into Universal Mayhem and then back out again after looking at the
+   standings.
+
+ECHOSTAT.DAT . . . . . . . . . . . . . . . . . . . . . . . 16.04.00.00.00
+
+   --- Version 1.50 Note:
+
+   This file contains the date and time that statistics has been compiled
+   by Mayhem for your system and a mail packet has been created. It is
+   maintained so that when Friday comes around, Mayhem will know if it
+   has already created a statistics package.
+
+   It works this way:
+
+      o When Mayhem is run, the program checks to see if it is Friday
+
+      o If it is Friday, it checks the current date against what's in
+        the ECHOSTAT.DAT file.
+
+      o If the dates are different, Mayhem will compile statistics on
+        your players and create a message file that's usually sent to
+        me.
+
+How to bounce a player . . . . . . . . . . . . . . . . . . 17.00.00.00.00
+
+   --- Version 1.42 Notes:
+
+   When a player is active and you want to bounce the player, simply
+   hit control B for Bounce!
+
+How to report active player name . . . . . . . . . . . . . 18.00.00.00.00
+
+   --- Version 1.42 Notes:
+
+   You can see the name of the active ship, the ship captains name,
+   the number of times signed in, and the number of minutes remaining
+   to play, simply hit control U for User!
+
+How to invoke chat mode  . . . . . . . . . . . . . . . . . 18.01.00.00.00
+
+   --- Version 1.42 Notes: Addition:
+
+   Yes! You may finally CHAT with that PLAYER! All you need to to use
+   the chat mode is (Finally :-}):
+
+   Control T for TALK
+   Control E for End talk!
+
+   The standard time-out values are used; that is to say, inactivity from
+   the keyboard or serial line for a certain duration will cause Mayhem
+   to exit even if you are in chat mode. Indeed, chat mode is terminated
+   after the FIRST inactivity warning.
+
+CHAT command . . . . . . . . . . . . . . . . . . . . . . . 18.01.01.00.00
+
+   --- Version 1.42 Notes:
+
+   You may page the SysOp to request a chat. The System Operator can see
+   who you are and hit control-T to start the chat mode. The SysOp can
+   then hit control-E to end the chat mode.
+
+   This command will actually page the system operator by ringing its
+   bell. It will also offer the SysOp a written message every minute,
+   letting it be known that you wish to talk. The command, then, need
+   only be invoked once as the operators console will display your
+   request to talk once a minute without you knowing it.
+
+   --- Version 2.0 Notes:
+
+   Enough comments have been made about the availability of the SysOp for
+   being chatted to. There is now a timer value, actually a range of time,
+   defined in the SHIP.CFG file that describes the hours when the SysOp
+   may be paged.
+
+INTERRUPT Driven Serial I/O  . . . . . . . . . . . . . . . 18.01.02.00.00
+
+   --- Version 2.3 Note:
+
+   INTERRUPTED SERIAL I/O! Hey!
+
+   Now, Mayhem will get interrupted every time a character is received by the
+   serial port and the character will get stuffed into a 1K buffer. Mayhem will
+   look at the buffer later but what this means is that the player now has a
+   TYPE-AHEAD-BUFFER of 1K!!!
+
+   The routines came from Tony Tribelli from Telcom Technologies and required
+   very little modification to work well. Indeed, the only thing removed was
+   the programming of the serial chip. Mayhem likes to leave the baud rate
+   alone when it gets loaded...
+
+   Anyway, the FREE command will tell you if Mayhem is running as an
+   interrupted serial or as a polled (old versions were always polled).
+
+   Now players can upload a file to Mayhem if they want!
+
+   Thanks, Tony.
+
+ERRORLEVEL meanings  . . . . . . . . . . . . . . . . . . . 19.00.00.00.00
+
+   Universal Mayhem will terminate with a number of useful errorlevels,
+   allowing your batch files to operate more intelligently than would
+   normally occurs. Here are the levels, (values), and what they mean:
+
+   ERRORLEVEL	Meaning
+   ----------------------------------------------------------------------
+	0	Normal termination, no errors, bye bye message was given
+	1	Normal termination, no errors, no bye bye message given
+       10	Something went wrong. SHIP.ERR will have the error number
+       41	Operator bounced player.
+       42	Subspace mail was sent <--- When to toss mail is flagged
+       50	Keyboard timed out <--- When to reset modem and hang up
+       51	SHIP.CFG file was either bad or incomplete
+       52	File is missing or can't be created <--- Out of space?
+       53	Too many players already signed in
+       61	System received non-maskable interrupt <--- Hardware
+       62	An abort occurred <--- Hardware
+       63	Floating Point Exception occurred
+       64	Illegal instruction encountered <--- SHIP.EXE corrupted?
+       65	Memory Segment Violation
+       66	Terminal Error
+       90       CARRIER DETECT has been lost, Mayhem exit.
+
+
+   Some of the more notable errorlevels are described here:
+
+   41		Operator had bounced player. Your batch file could take
+		this value and reset the system completely if you want to
+		have access to the system without allowing the player to
+		be bounced to the BBS software. This would make the
+		termination of call bypassing the BBS return making the
+		call drop faster than allowing the return to BBS and then
+		asking _it_ to drop the modem.
+
+   42		Rather than have your batch file scan/toss any subspace mail
+		that _may_ have been sent, your batch file could look for
+		this value and toss mail if it finds it. It's important to
+		note that if mail is sent by the player and an error
+		occurs, the error will be returned in favor of the mail
+		value. Only when no error occurred and mail was sent will
+		an error level of 42 be returned.
+
+   50		The keyboard timed out. After three minutes of inactivity,
+		the player will get a warning, beeping the terminal and
+		causing a one-line message to be displayed. At the end of
+		an additional minute, Universal Mayhem will terminate with
+		this errorlevel. This allows your batch file to reset the
+		system by invocation of AUTOEXEC.BAT, for example, to reset
+		the system. otherwise, for an inactive caller, Universal
+		Mayhem would time out after four minutes, return to the BBS
+		software where it would take an additional length of time
+		for it to time out before hanging the inactive caller.
+
+   61-66	The errorlevels 61 through 66 are usually an artifact of
+		hardware problems. I have never seen any of these occurs
+		yet I don't have a system that stays up 24 hours a day and
+		has millions of people calling it every day. These type of
+		errors _should_ be trapped and handled in a civilized
+		manor allowing your system to be reset if they occurs.
+
+
+   Of course, you need not check for _any_ of these in your batch file which
+   invokes Universal Mayhem. They may, however, save you a lot of grief if
+   you walk in from work at the meat packing plant to find your system hung.
+
+   When any of these errors occur, the file SHIP.ERR will be updated to
+   reflect a different error message value that _I_ use to determine the
+   cause. Normally, I need this information to track down bugs but I have
+   a list here that you may view just encase you can find the problem.
+   Look in section 15.01.00.00.00 for these error codes.
+
+*.SHP files  . . . . . . . . . . . . . . . . . . . . . . . 20.00.00.00.00
+
+   When you see files with this extension, other than the LASTMSG.SHP
+   file, it is a command file that automates the players ships. They are
+   not normally seen by the player or needed to be considered by the
+   SYSOP as when a ship is destroyed, the file goes with it.
+
+   The information contained within these files are english and may be
+   typed and read as you desire. It was originally intended that the player
+   could create one of these files and upload it to the Universal Mayhem
+   directory, thus allowing them to maintain a command file at home and
+   uploading it before sign-in off or something. This was never allowed but
+   the files remained ascii text just the same.
+
+   --- Version 1.50 Note:
+
+   The LASTMSG.SHP file is not used any more.
+
+Memory requirements  . . . . . . . . . . . . . . . . . . . 21.00.00.00.00
+
+   Universal Mayhem takes about 158K of memory. The development system
+   has 640K or ram and I have had two copies of Universal Mayhem resident
+   at the same time as the X00 FOSSIL driver, GATEWAY2, and Norton
+   guides. To get the second copy of Universal Mayhem resident, I used the
+   SYSOP function of suspension to DOS which further brought in an additional
+   copy of COMMAND.COM. To see the amount of memory left, I used RMAP,
+   a public domain program, to see what the memory remaining was. Finally,
+   I suspended to DOS and used RMAP.
+
+   With all this resident, I had a remaining 48K of RAM. Skimming the
+   objects off the RAM to return to the original copy of Universal Mayhem
+   in memory worked with no problem. Taking Norton Guides out of memory
+   worked as did the removal of the second copy of Mayhem and the
+   COMMAND.COM's.
+
+   What I'm trying to say is: Universal Mayhem is not a RAM hog. It is a
+   disk space hog.
+
+   --- Version 1.00 Notes:
+
+   Thanks should be in order for Captain Bob Campbell who offered a
+   solution to the disk space requirements thereby cutting the size of
+   the universe and planets files by more than half. A universe of
+   10000 by 10000 uses 380K or so where it would normally have taken
+   some 1.7 megabytes! This reduction is a heavy requirement in FidoNet
+   where Echo Mails takes up five meg every night!
+
+When a BIG Universe is created . . . . . . . . . . . . . . 21.01.00.00.00
+
+   --- Version 1.30 Note:   (Documentation only)
+
+   A universe of 32000 by 32000 was created on an XT running 8 MHZ.
+   A total of 100 players was defined in the SHIP.CFG file.
+   The following information on system usage is reported:
+
+   It took 22 minutes to create the universe
+   The Universe file was 512K (and 16 bytes)
+   The Planets file was 640K
+   The players file was 68K (and 800 bytes)
+   The goals file is always 50 bytes
+   The comets file is always 1160 bytes
+
+   The total disk space used: 1,222,026 (One megabyte)
+
+   The universe size: 1,024,000,000 sectors (One billion, 24 million!)
+
+   At maximum warp, it took 4 minutes 23 seconds to traverse universe
+   from lower right corner to upper left corner. At warp 10, it took
+   twelve minutes 37 seconds and I encountered a black hole.
+
+Sit around for awhile  . . . . . . . . . . . . . . . . . . 22.00.00.00.00
+
+   --- Version 1.00 Notes:
+
+   A battle ship to your left, a star cruiser to your right. An enemy
+   star base above you. What do you do? You sit and see what happens
+   if you just sit their like an ass.
+
+   I'll tell you what you should do. Sit and see what happens for a
+   few minutes. If you're still alive after awhile, you'll know.
+
+Somethings for the SysOp to watch  . . . . . . . . . . . . 23.00.00.00.00
+
+   --- Version 1.00 Notes:
+
+   There have been several comments, four in fact, that Universal Mayhem
+   is raw-thare boring to watch from the SysOp standpoint. A good point...
+   I have added something that might make it a little interesting, at
+   least for a little while:
+
+   As you watch a player running Mayhem from the modem, you are able to
+   watch enemy ships either converging or running from that player. This
+   is done whenever a ships command file takes over and a ship moves;
+   you are told what ship moves from where to where. This allows you to
+   watch allied ships, perhaps, converge on a helpless ship and get to
+   see it blown to shit.
+
+   There are other things reported that only you the SysOp can see when
+   a player is running from the modem. Among them is being able to see
+   what the cops buy when a player pays taxes. Why not? It's something
+   to look at instead of a warp sequence that takes fifteen minutes!
+
+   --- Version 1.40 Notes:
+
+   When the active players scout ships move, the system operator is told
+   when it moves and if gets to its station. This information is offered
+   to the system operator at the computers console and is not seen by the
+   players.
+
+Multi-Universe Mayhem Version 1.4  . . . . . . . . . . . . 24.00.00.00.00
+
+   --- Version 1.40 Notes:
+
+   Universal Mayhem has gone to a multi-universe format. It basically
+   takes the form of a three dimensional Mayhem but without a visual
+   indication nor a mechanic sensory aspect into the alternate
+   dimensions.
+
+   You still have the normal X-Y coordinate system that you're used to.
+   What you also have now is an additional Z coordinate for the
+   following items:
+
+   Your ship
+   Your Base
+   Your attack swarms
+   Your remote sensors
+   Your scout ships
+   The universal slaver death weapons
+
+   If you want to pick up a remote you left in universe 9 and you are
+   in universe 6, you must traverse the various universes through the
+   gates that exist to enter universe 9. Once there, a normal warp and
+   pick up can be made.
+
+Multi-Universe Map . . . . . . . . . . . . . . . . . . . . 24.00.00.00.01
+
+   The Multi-Universe looks like this:
+
+
+                           ----
+                          | 12 |
+                      ---- ----
+                     | 10 |
+                 ---- ----
+                | 06 |
+            ---- ---- ----  
+           | 01 |    | 02 |
+       ---- ---- ---- ---- ----
+      | 05 |    | 00 |    | 07 |
+       ---- ---- ---- ---- ----
+           | 03 |    | 04 |
+            ---- ---- ----
+                | 08 |
+            ---- ----
+           | 09 |
+       ---- ----
+      | 11 |
+       ----    
+
+   
+   Suppose you are in universe 6 and need to get to universe 9. You would,
+   according to the above map, choose a route. Any way you choose, you 
+   must go through FIVE universes to make the trip. Let's choose the
+   following route:
+
+   From 6 to 2 to 0 to 3 to 8 and then to 9. In universe 6 you would warp
+   to the lower right corner of the universe, enter the gate going to
+   universe 2. Once their, warp to the lower left hand corner of universe
+   2 and enter the gate going into universe 0, (the default universe).
+   Once their, enter the gate leading to universe 3, (no warping is needed
+   because it's a lower left gateway). Once in universe 3 warp to the
+   lower right corner of the universe into gateway 8. Once their warp to
+   the lower left corner into universe gateway 9. Once their, warp to
+   where your remote is and pick it up!
+
+Australia . . . . . . . . . . . . . . . . . . . . . . . . 25.00.00.00.00
+
+   --- Version 2.0 Notes:
+
+   Scott Neville, Australia, is hosting Universal Mayhem down under. The
+   network node assignment adopted by Scott is 11:9000/0. The phone number
+   for his site is 011-61-3-560-9292.
+
+   Scott has consented to acting as a secondary star for his part of the
+   world and will bundle up Area Mayhem Echo Conference messages for
+   eventual pick up and distribution in the states.
+
+   Thanks, Scott!
+
+
